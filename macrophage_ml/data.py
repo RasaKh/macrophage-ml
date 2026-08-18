@@ -79,3 +79,16 @@ def parse_metadata():
         if samples[name].eq("").any():
             raise ValueError(f"Missing parsed {name} metadata")
     return samples, table_start
+
+
+def task_cohort(samples):
+    eligible = samples.loc[
+        samples.description.eq("Macrophage") & samples.differentiation.eq("GM-CSF")
+        & samples.time.eq("72h") & samples.stimulus.isin(CONDITIONS)
+        & samples.platform.eq("GPL6947")].copy()
+    counts = eligible.groupby(["donor_id", "stimulus"]).size().unstack(fill_value=0).reindex(columns=CONDITIONS, fill_value=0)
+    matched = counts.index[counts.eq(1).all(axis=1)].tolist()
+    cohort = eligible.loc[eligible.donor_id.isin(matched)].sort_values(["donor_id", "stimulus", "sample_id"]).reset_index(drop=True)
+    if cohort.empty or cohort.donor_id.nunique() < 6:
+        raise ValueError("Fewer than six donors with one profile per selected condition")
+    return cohort, eligible, matched
