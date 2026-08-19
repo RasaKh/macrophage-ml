@@ -1,12 +1,16 @@
 """Read the public GEO matrix and freeze a donor-matched analysis cohort."""
 
+from collections import Counter
 import csv
+from datetime import datetime, timezone
 import gzip
 import hashlib
 import json
 from pathlib import Path
+import re
 from urllib.request import Request, urlopen
 
+import numpy as np
 import pandas as pd
 
 
@@ -92,3 +96,72 @@ def task_cohort(samples):
     if cohort.empty or cohort.donor_id.nunique() < 6:
         raise ValueError("Fewer than six donors with one profile per selected condition")
     return cohort, eligible, matched
+
+
+def platform_symbols():
+    symbols = {}
+    with gzip.open(RAW / "GPL6947.annot.gz", "rt", errors="replace") as stream:
+        for line in stream:
+            if line.startswith("!platform_table_begin"):
+                reader = csv.DictReader(stream, delimiter="\t")
+                for row in reader:
+                    if not row.get("ID") or row["ID"].startswith("!platform_table_end"):
+                        break
+                    symbol = row.get("Gene symbol", "").strip()
+                    if re.fullmatch(r"[A-Za-z][A-Za-z0-9-]*", symbol):
+                        symbols[row["ID"]] = symbol
+                break
+    if not symbols:
+        raise ValueError("No unambiguous symbols in platform annotation")
+    return symbols
+
+
+def prepare():
+    download()
+    samples, header_line = parse_metadata()
+    cohort, eligible, matched = task_cohort(samples)
+    symbols = platform_symbols()
+    PROCESSED.mkdir(parents=True, exist_ok=True)
+    sample_ids = cohort.sample_id.tolist()
+    matrix = pd.read_csv(RAW / "GSE46903_series_matrix.txt.gz", compression="gzip", sep="\t",
+                         skiprows=header_line, usecols=["ID_REF", *sample_ids], low_memory=False,
+                         on_bad_lines="skip")
+    # The closing marker has no numeric expression and must not enter analysis.
+    matrix = matrix.loc[matrix.ID_REF.isin(symbols)].copy()
+    if matrix.ID_REF.duplicated().any():
+        raise ValueError("Duplicate probe IDs in deposited matrix")
+    matrix["gene"] = matrix.ID_REF.map(symbols)
+    matrix = matrix.drop(columns="ID_REF")
+    for sample_id in sample_ids:
+        matrix[sample_id] = pd.to_numeric(matrix[sample_id], errors="coerce")
+    genes = matrix.groupby("gene", sort=True).median(numeric_only=True).T.reindex(sample_ids)
+    genes.index.name = "sample_id"
+    available = [gene for gene in PANEL if gene in genes.columns and genes[gene].notna().any()]
+    if not set(PANEL[:3]).issubset(available):
+        raise ValueError(f"Core thesis genes unavailable: {set(PANEL[:3]) - set(available)}")
+    cohort.to_csv(PROCESSED / "samples.csv", index=False)
+    genes.to_pickle(PROCESSED / "genes.pkl")  # trusted local output, never user-uploaded data
+    task = {
+        "dataset": "GSE46903", "platform": "GPL6947", "cell_type": "Macrophage",
+        "differentiation": "GM-CSF", "time": "72h", "conditions": list(CONDITIONS),
+        "donors": matched, "sample_ids": sample_ids, "reference_panel": available,
+        "selection": "exactly one sample per donor per condition",
+        "n_samples": len(cohort), "n_donors": len(matched),
+        "normalization": "Deposited log2 quantile-normalized matrix; upstream normalization may include evaluation samples",
+        "source_hashes": {name: digest(RAW / name) for name in SOURCES},
+        "annotation_rule": "discard ambiguous/missing symbols; median across probes per gene within a sample",
+    }
+    task["task_hash"] = hashlib.sha256(json.dumps(task, sort_keys=True).encode()).hexdigest()
+    (PROCESSED / "task_definition.json").write_text(json.dumps(task, indent=2) + "\n")
+    audit = {
+        "accessed_utc": datetime.now(timezone.utc).isoformat(), "all_series_samples": len(samples),
+        "macrophage_samples": int(samples.description.eq("Macrophage").sum()),
+        "eligible_before_matching": len(eligible), "eligible_donors": eligible.donor_id.nunique(),
+        "included_samples": len(cohort), "included_donors": len(matched),
+        "included_class_counts": {key: int(value) for key, value in cohort.stimulus.value_counts().items()},
+        "mapped_genes": len(genes.columns), "reference_panel": available,
+        "missing_expression_cells": int(genes.isna().sum().sum()),
+        "excluded_samples": len(samples) - len(cohort), "source_hashes": task["source_hashes"],
+    }
+    (PROCESSED / "audit.json").write_text(json.dumps(audit, indent=2) + "\n")
+    return task, audit
