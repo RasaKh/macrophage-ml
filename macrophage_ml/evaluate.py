@@ -1,5 +1,10 @@
 """Nested donor-grouped evaluation. No operation learns from a held-out donor."""
 
+from collections import Counter
+from datetime import datetime, timezone
+import hashlib
+import json
+from pathlib import Path
 import warnings
 
 import numpy as np
@@ -13,7 +18,20 @@ from sklearn.metrics import accuracy_score, balanced_accuracy_score, confusion_m
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-from .data import CONDITIONS, PANEL
+from .data import CONDITIONS, PANEL, PROCESSED, ROOT, digest
+
+
+class TopVariance(BaseEstimator, TransformerMixin):
+    def __init__(self, k=1500):
+        self.k = k
+
+    def fit(self, X, y=None):
+        variances = np.nanvar(X, axis=0)
+        self.indices_ = np.sort(np.argsort(-variances, kind="stable")[:min(self.k, X.shape[1])])
+        return self
+
+    def transform(self, X):
+        return X[:, self.indices_]
 
 
 def group_folds(donors, count, seed):
@@ -32,19 +50,6 @@ def group_folds(donors, count, seed):
             raise AssertionError("Donor leakage")
         folds.append((train, test))
     return folds
-
-
-class TopVariance(BaseEstimator, TransformerMixin):
-    def __init__(self, k=1500):
-        self.k = k
-
-    def fit(self, X, y=None):
-        variances = np.nanvar(X, axis=0)
-        self.indices_ = np.sort(np.argsort(-variances, kind="stable")[:min(self.k, X.shape[1])])
-        return self
-
-    def transform(self, X):
-        return X[:, self.indices_]
 
 
 def candidates(procedure):
@@ -117,6 +122,7 @@ def choose(procedure, X, y, donors, seed):
             trials.append((score, params))
     if not trials:
         raise RuntimeError(f"No valid inner fits for {procedure}")
+    # A fixed tie rule favours smaller panels and stronger regularization.
     score, params = max(trials, key=lambda pair: (pair[0], -pair[1].get("k", 0),
                              -pair[1].get("C", 0), pair[1].get("l1_ratio", 0)))
     return params, float(score)
@@ -188,3 +194,74 @@ def summaries(predictions, procedures, seed):
             "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting",
         }
     return results
+
+
+def run(seed=42, quick=False):
+    task = json.loads((PROCESSED / "task_definition.json").read_text())
+    samples = pd.read_csv(PROCESSED / "samples.csv").set_index("sample_id")
+    genes = pd.read_pickle(PROCESSED / "genes.pkl")
+    if list(genes.index) != task["sample_ids"] or list(samples.index) != task["sample_ids"]:
+        raise AssertionError("Matrix and metadata sample order disagree")
+    donors = samples.donor_id.to_numpy()
+    y = samples.stimulus.to_numpy()
+    if set(y) != set(CONDITIONS): raise ValueError("Incorrect task classes")
+    outer = group_folds(donors, 3, seed)
+    procedures = ["dummy", "thesis_lr", "compact_lr", "compact_lr_k5", "compact_lr_k10",
+                  "compact_lr_k20", "compact_lr_k50"]
+    if not quick: procedures.extend(["broad_lr", "compact_gb"])
+    split_manifest, records, selected_records, explanation_records = [], [], [], []
+    for fold, (train, held) in enumerate(outer):
+        fold_info = {"fold": fold, "train_donors": sorted(set(donors[train])), "held_donors": sorted(set(donors[held])),
+                     "train_ids": list(genes.index[train]), "held_ids": list(genes.index[held])}
+        if set(fold_info["train_donors"]) & set(fold_info["held_donors"]): raise AssertionError("Donor overlap")
+        split_manifest.append(fold_info)
+        for procedure in procedures:
+            print(f"Outer fold {fold + 1}/{len(outer)}: {procedure}", flush=True)
+            X = matrix_for(procedure, genes, task["reference_panel"])
+            params, inner_score = choose(procedure, X.iloc[train], y[train], donors[train], seed + fold)
+            model = fit_safe(build(procedure, params), X.iloc[train], y[train])
+            labels = model.classes_ if procedure == "dummy" else model.named_steps["model"].classes_
+            scores = model.predict_proba(X.iloc[held])
+            ordered = np.column_stack([scores[:, list(labels).index(label)] for label in CONDITIONS])
+            predicted = np.array(CONDITIONS)[np.argmax(ordered, axis=1)]
+            genes_selected = selection(model, procedure, X.columns)
+            explanation = explanations(model, procedure, X.iloc[held], genes_selected, scores, labels)
+            for gene in genes_selected:
+                if procedure not in ("dummy", "broad_lr"):
+                    selected_records.append({"model_id": procedure, "fold": fold, "gene": gene})
+            for i, row_index in enumerate(held):
+                accession = str(genes.index[row_index])
+                record = {"model_id": procedure, "sample_id": accession, "donor_id": str(donors[row_index]),
+                          "outer_fold": fold, "true_label": str(y[row_index]), "predicted_label": str(predicted[i]),
+                          "selected_gene_count": len(genes_selected), "inner_balanced_accuracy": inner_score,
+                          "params": json.dumps(params, sort_keys=True)}
+                record.update({"p_" + label: float(ordered[i, j]) for j, label in enumerate(CONDITIONS)})
+                if not np.isclose(ordered[i].sum(), 1.0): raise AssertionError("Probabilities fail normalization")
+                records.append(record)
+                if explanation[i] is not None:
+                    explanation_records.append({"model_id": procedure, "sample_id": accession, "details": explanation[i]})
+    predictions = pd.DataFrame(records)
+    for procedure in procedures:
+        group = predictions[predictions.model_id.eq(procedure)]
+        if len(group) != len(samples) or group.sample_id.nunique() != len(samples):
+            raise AssertionError("Incomplete or duplicate out-of-fold predictions")
+    metrics = summaries(predictions, procedures, seed)
+    run_id = "gse46903_" + task["task_hash"][:10] + f"_s{seed}" + ("_smoke" if quick else "")
+    output = ROOT / "artifacts" / run_id
+    output.mkdir(parents=True, exist_ok=True)
+    predictions.to_csv(output / "predictions.csv.gz", index=False, compression="gzip")
+    pd.DataFrame(selected_records).to_csv(output / "selected_genes.csv", index=False)
+    (output / "explanations.json").write_text(json.dumps(explanation_records, indent=2) + "\n")
+    (output / "splits.json").write_text(json.dumps(split_manifest, indent=2) + "\n")
+    (output / "task_definition.json").write_text(json.dumps(task, indent=2) + "\n")
+    (output / "metrics.json").write_text(json.dumps({"schema_version": 1, "classes": CONDITIONS,
+                           "primary_model": "compact_lr", "results": metrics}, indent=2) + "\n")
+    manifest = {"run_id": run_id, "created_utc": datetime.now(timezone.utc).isoformat(),
+                "seed": seed, "smoke": quick, "task_hash": task["task_hash"], "n_samples": len(samples),
+                "n_donors": len(set(donors)), "procedures": procedures, "source_hashes": task["source_hashes"],
+                "versions": {"numpy": np.__version__, "pandas": pd.__version__}}
+    import sklearn
+    manifest["versions"]["sklearn"] = sklearn.__version__
+    manifest["files"] = {file.name: digest(file) for file in output.iterdir() if file.is_file()}
+    (output / "run_manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
+    return output, metrics
