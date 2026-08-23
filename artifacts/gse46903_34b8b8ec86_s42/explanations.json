@@ -1,0 +1,6274 @@
+[
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "con",
+      "intercept": 0.08050106663121755,
+      "top_terms": [
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.10413316349284117
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.09503286742304931
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.07601849114195482
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.04828537401132553
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.029453721281329833
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.06968016641072514
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.138676993266016,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.4698383520803337
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.32321367683128777
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.27139011744235836
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.19399608303614765
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.10748940570377638
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.6844704069431712
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.21518546906035405,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.6337333174539402
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.35482560983893235
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.2045942795944639
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.12452582340042033
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.05362510805564519
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 1.0488684531717576
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.08050106663121755,
+      "top_terms": [
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.6020696594692493
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.15499260345359664
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.07132354097985417
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": -0.06069572273520667
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.01914579553251695
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.7063348100687928
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.08050106663121755,
+      "top_terms": [
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.6656819413779504
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.11447508681613959
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.0893614191825062
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.08680697093854316
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.002460860206333719
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.6946406531125757
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.21917805989723355,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.7124824765534238
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.3548033242844783
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.31575221836364153
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.1567021449288948
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": -0.08182083063072382
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.02258201824291886
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.21518546906035405,
+      "top_terms": [
+        {
+          "gene": "IL1B",
+          "log_odds": 0.31696032769759896
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.28879192584223334
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.28849764315426096
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.02510773484093779
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.004729416474142353
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.6492272763186591
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.21917805989723355,
+      "top_terms": [
+        {
+          "gene": "TNF",
+          "log_odds": 0.3567576611779978
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.25696999962904715
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.17084532489792548
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.10713937957553002
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.08692659294847131
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.5451821391806781
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": 0.08050106663121755,
+      "top_terms": [
+        {
+          "gene": "TNF",
+          "log_odds": 0.26798943874881487
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": -0.1850939908914037
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.14185332278944038
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.09873747886665671
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.09055666100473402
+        }
+      ],
+      "other_genes": -2.7755575615628914e-17,
+      "total_log_odds": 0.013362373837265629
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.138676993266016,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.411474221156729
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.342545185243488
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.20386422202160315
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.10566860617075131
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.09382650996554226
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.8310487313610132
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.13468440242913648,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.7517841868288523
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.5218309788679256
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": -0.4373271301983754
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.17603192939503076
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.08510561891604193
+        }
+      ],
+      "other_genes": 2.7755575615628914e-17,
+      "total_log_odds": 0.018236790670676628
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.21917805989723355,
+      "top_terms": [
+        {
+          "gene": "TNF",
+          "log_odds": 0.20877753489830791
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.10106267943004019
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.0856775812484217
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.0781618108589459
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.0016722361079443894
+        }
+      ],
+      "other_genes": 5.551115123125783e-17,
+      "total_log_odds": 0.2561737826464266
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25997541858780204,
+      "top_terms": [
+        {
+          "gene": "RSAD2",
+          "log_odds": 0.13282481923106867
+        },
+        {
+          "gene": "CD38",
+          "log_odds": 0.10189288967984282
+        },
+        {
+          "gene": "CFB",
+          "log_odds": 0.08914297813242023
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.08688904812252464
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.0858061458920634
+        }
+      ],
+      "other_genes": 1.2456891381126045,
+      "total_log_odds": 1.4822696005827223
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "SOX8",
+          "log_odds": 0.16673581744052077
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.13011244989366802
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.1221560382051139
+        },
+        {
+          "gene": "GPD1L",
+          "log_odds": 0.1143378432484251
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.10088679850690725
+        }
+      ],
+      "other_genes": 0.4947616132292182,
+      "total_log_odds": 0.9495626768507224
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.18228154094241972,
+      "top_terms": [
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.1582201407533131
+        },
+        {
+          "gene": "PFKFB3",
+          "log_odds": 0.12755629804316893
+        },
+        {
+          "gene": "IRAK2",
+          "log_odds": 0.12704082647617984
+        },
+        {
+          "gene": "SLC25A37",
+          "log_odds": 0.12637502632541014
+        },
+        {
+          "gene": "GJB2",
+          "log_odds": 0.11566137827146541
+        }
+      ],
+      "other_genes": 0.9053581854108973,
+      "total_log_odds": 1.377930314338015
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "MAOA",
+          "log_odds": 0.05155307938853306
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.04701356245119012
+        },
+        {
+          "gene": "SOX8",
+          "log_odds": 0.04059342058385166
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.03618670624540487
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": -0.035694317914154276
+        }
+      ],
+      "other_genes": -0.01618774905532086,
+      "total_log_odds": 0.3028925853726355
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25997541858780204,
+      "top_terms": [
+        {
+          "gene": "CFB",
+          "log_odds": 0.12543725583513146
+        },
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.11991514146858336
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.10859327360876726
+        },
+        {
+          "gene": "PARP14",
+          "log_odds": 0.10797369951264123
+        },
+        {
+          "gene": "CXCL10",
+          "log_odds": 0.09043922008382917
+        }
+      ],
+      "other_genes": 1.4519404540330132,
+      "total_log_odds": 1.7443236259541637
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "SOX8",
+          "log_odds": 0.22147086617524392
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.15642886849758933
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.13009813220630384
+        },
+        {
+          "gene": "CDR2L",
+          "log_odds": 0.11595870103358373
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.11019254861851203
+        }
+      ],
+      "other_genes": 0.47554519653860594,
+      "total_log_odds": 1.0302664293967079
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.18228154094241972,
+      "top_terms": [
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.16871577950140026
+        },
+        {
+          "gene": "PIM2",
+          "log_odds": 0.12527278254257837
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.09900605686617477
+        },
+        {
+          "gene": "IRAK2",
+          "log_odds": 0.0896132702798184
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.0841972603721574
+        }
+      ],
+      "other_genes": 0.7174335083150085,
+      "total_log_odds": 1.101957116934718
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "PIM1",
+          "log_odds": 0.08969122975977087
+        },
+        {
+          "gene": "SOX8",
+          "log_odds": 0.04788384979829564
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.04553112695177466
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.04378170245298766
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04351502998607968
+        }
+      ],
+      "other_genes": 0.09549199826208571,
+      "total_log_odds": 0.5453228208841251
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25997541858780204,
+      "top_terms": [
+        {
+          "gene": "CD38",
+          "log_odds": 0.15328330914639235
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.10644399881607837
+        },
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.10455393612108961
+        },
+        {
+          "gene": "JAK2",
+          "log_odds": 0.09387133466161292
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.08716760459406335
+        }
+      ],
+      "other_genes": 0.9525737244524984,
+      "total_log_odds": 1.237918489203933
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "PIM1",
+          "log_odds": 0.133007234909115
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.11559405061994249
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.11382017057917306
+        },
+        {
+          "gene": "GPD1L",
+          "log_odds": 0.08534636291069109
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.08170823457708161
+        }
+      ],
+      "other_genes": 0.3849167392085784,
+      "total_log_odds": 0.7349649091314507
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.18228154094241972,
+      "top_terms": [
+        {
+          "gene": "GJB2",
+          "log_odds": 0.17875361011803131
+        },
+        {
+          "gene": "PIM2",
+          "log_odds": 0.14160579765248704
+        },
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.13460239265884746
+        },
+        {
+          "gene": "PFKFB3",
+          "log_odds": 0.09982588877449779
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.09924802827580415
+        }
+      ],
+      "other_genes": 0.650584989017329,
+      "total_log_odds": 1.1223391655545771
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "SOX8",
+          "log_odds": 0.04267028511204014
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.03663781112562249
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.034934555113812236
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": -0.03285834901659614
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.028282524398246307
+        }
+      ],
+      "other_genes": 0.013408387554276258,
+      "total_log_odds": 0.3025030979605322
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.7528331269652011,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.9092660231157785
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.6790990754626904
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 1.4601154847528455
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.314054927125918
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": -0.2662546892223335
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 3.7153378400178623
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.46071673030206817,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 3.2986028374668765
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.28324905862408645
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.2778509326804075
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.09351544858263788
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.03408245386924342
+        }
+      ],
+      "other_genes": -4.440892098500626e-16,
+      "total_log_odds": 2.149188213408433
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.3756552489905206,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 2.9767016722959934
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": -0.28242952296264073
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.14315445535362656
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.11306537897495253
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.005674804812653293
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 2.0680718708269064
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.46071673030206817,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.9007182405158228
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.3718802315793576
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.2615001842450604
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.07627129205113171
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.024108766554210057
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 2.0951954452476507
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.7528331269652011,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.962488823859303
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.683659978583811
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 1.525139344792792
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": -0.6005073977662548
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.22171174738213656
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 3.5962358751223134
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.46071673030206817,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 5.114610802646822
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.29955171827960725
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.2496902848897488
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.07788321087695657
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.03078562094789753
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 3.9959832373505435
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.3756552489905206,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 3.3899840377343256
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": -0.3889732300406034
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.09663964906853918
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.0426080351775358
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.005707508367922273
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 2.4918153828250484
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.3756552489905206,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.7867427452888258
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.5673256584189852
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.28279792556471794
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.14709255554774092
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.005851281525880066
+        }
+      ],
+      "other_genes": -2.220446049250313e-16,
+      "total_log_odds": 2.15376285228491
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.7528331269652011,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.7930815742831634
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.3442458608611618
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 1.3228693754749818
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": -0.41624252943053147
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.2430417274027903
+        }
+      ],
+      "other_genes": 4.440892098500626e-16,
+      "total_log_odds": 3.0480794268207836
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.46071673030206817,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 2.6715389764491095
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.3138656441315362
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.2659321267821194
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.06858856229354869
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.025805553480843204
+        }
+      ],
+      "other_genes": 2.220446049250313e-16,
+      "total_log_odds": 1.5366303594589938
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.3756552489905206,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 3.3982691794942927
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": -0.3490517844337097
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.06969795917647456
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.026909781903419593
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.005200052077737294
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 2.6359740208747446
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.46071673030206817,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.9247276810393988
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.309882456292895
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.23296851585883796
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.05422834228541513
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.015290059277349673
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 1.997813785055965
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.06081110674483001,
+      "top_terms": [
+        {
+          "gene": "GBP4",
+          "log_odds": 0.1332190277634341
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.13025663276332322
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.1253128373047052
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.12493097114424313
+        },
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.1182922260481226
+        }
+      ],
+      "other_genes": 0.18563129671511192,
+      "total_log_odds": 0.7568318849941101
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.013551048792280357,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.13730715065535812
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.015780599252202605
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.013738569086554341
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.00919822925276278
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.005080013822762604
+        }
+      ],
+      "other_genes": 0.003662139314018903,
+      "total_log_odds": 0.1610556249458538
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.014119003995031135,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.13143821454713808
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.07203238426799871
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.014099161772031207
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.006940242937352717
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.005948390160848566
+        }
+      ],
+      "other_genes": -0.008159872384217753,
+      "total_log_odds": 0.2081795173061204
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.013551048792280357,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.03749316339141635
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.0077860834008388535
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.006669595747333044
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": -0.0063377597944896695
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.002565984376411104
+        }
+      ],
+      "other_genes": -0.0027165759591414804,
+      "total_log_odds": 0.03830740440014864
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.06081110674483001,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 0.13388767355447043
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.1335808879349975
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.1308934399893545
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.10030408087612203
+        },
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.0997915841873584
+        }
+      ],
+      "other_genes": 0.17660999289423995,
+      "total_log_odds": 0.7142565526917128
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.013551048792280357,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.21290002786811743
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.018693839203236067
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.010386603418496993
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.005372398682928199
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.0050160900981531175
+        }
+      ],
+      "other_genes": 0.004232888933196455,
+      "total_log_odds": 0.2323060020459915
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.014119003995031135,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.14968696843557636
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.08623708566909714
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.01118817897764431
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.009558380031558051
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.004307386781685389
+        }
+      ],
+      "other_genes": 0.0026443278191128905,
+      "total_log_odds": 0.2408885501562722
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.013551048792280357,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.05958699159483048
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.012621681239515936
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.007000383905506351
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": -0.004804345199474456
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.0017543528403569444
+        }
+      ],
+      "other_genes": -0.001839988575188252,
+      "total_log_odds": 0.059118056438081594
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.06081110674483001,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 0.12233013383589673
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.11353383794319102
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.10665191189483422
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.08112296188212874
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.06446983939813819
+        }
+      ],
+      "other_genes": 0.09635901756340348,
+      "total_log_odds": 0.5236565957727624
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.013551048792280357,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.11120508372649535
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.014460823707701725
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.012141616081653372
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.008203164138735989
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.005629116009859555
+        }
+      ],
+      "other_genes": 0.004031747001418284,
+      "total_log_odds": 0.1308622698538648
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.014119003995031135,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.15005280430362292
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.055245537984868455
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.013076423613948425
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.008577375892841278
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.006663323600292747
+        }
+      ],
+      "other_genes": -0.000758230931796805,
+      "total_log_odds": 0.21873823046874588
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.013551048792280357,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.038492576788408735
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": -0.008601708829899309
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.005805953237414565
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": -0.005744973546814511
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.005557678352212079
+        }
+      ],
+      "other_genes": -0.003851473002176753,
+      "total_log_odds": 0.03359719531659603
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.12088541855586843,
+      "top_terms": [
+        {
+          "gene": "GBP4",
+          "log_odds": 0.1175756547648176
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.11609664853899203
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.11394995987149045
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.110405565203591
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.10864225432510823
+        }
+      ],
+      "other_genes": 0.5240526537305467,
+      "total_log_odds": 0.9698373178786776
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.07493634084034743,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.15267749086122706
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.14186609713032655
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.11932114804773397
+        },
+        {
+          "gene": "SGK223",
+          "log_odds": 0.09116636932945517
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": 0.08036209348421867
+        }
+      ],
+      "other_genes": 0.07007647327590427,
+      "total_log_odds": 0.5805333312885183
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0432015179893315,
+      "top_terms": [
+        {
+          "gene": "GJB2",
+          "log_odds": 0.16458272247755776
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.12015769914172748
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.09209045096110144
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.06592126691009577
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": 0.05239775701443965
+        }
+      ],
+      "other_genes": 0.04043211982419659,
+      "total_log_odds": 0.49238049833978725
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.07493634084034743,
+      "top_terms": [
+        {
+          "gene": "PIM1",
+          "log_odds": 0.05459927085998108
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": -0.04475612481936897
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04246246624820167
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.032581895978849314
+        },
+        {
+          "gene": "SGK223",
+          "log_odds": -0.02992573108692784
+        }
+      ],
+      "other_genes": -0.03352383886383667,
+      "total_log_odds": 0.09637427915724602
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.12088541855586843,
+      "top_terms": [
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.1655713920290062
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.14872031300622493
+        },
+        {
+          "gene": "CXCL10",
+          "log_odds": 0.12493979658183695
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.11933296486022324
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.1178950231562491
+        }
+      ],
+      "other_genes": 0.5704250102342235,
+      "total_log_odds": 1.1259990813118956
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.07493634084034743,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.18501203778076514
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.15108965984197176
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.129302936409446
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": 0.07665414018021852
+        },
+        {
+          "gene": "STX11",
+          "log_odds": 0.03568047205576985
+        }
+      ],
+      "other_genes": 0.05810832291419388,
+      "total_log_odds": 0.5609112283420178
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0432015179893315,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.1368402772412041
+        },
+        {
+          "gene": "GJB2",
+          "log_odds": 0.09333229815831508
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.08038992951649283
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.07892086316052871
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": 0.05525080129515169
+        }
+      ],
+      "other_genes": 0.053286901797028774,
+      "total_log_odds": 0.4548195531793897
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.0432015179893315,
+      "top_terms": [
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.04612432784468392
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.04143370262357998
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.03192169986980443
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.031757699795772955
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.020733297547229954
+        }
+      ],
+      "other_genes": 0.020237219350218993,
+      "total_log_odds": 0.23540946502062174
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.12088541855586843,
+      "top_terms": [
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.1457768450612704
+        },
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.14436159215319738
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.10903182626775913
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.10002780096161992
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.0941282081357199
+        }
+      ],
+      "other_genes": 0.3263926040667223,
+      "total_log_odds": 0.7988334580904206
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.07493634084034743,
+      "top_terms": [
+        {
+          "gene": "PIM1",
+          "log_odds": 0.15446815060397673
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.13355968677575944
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.09663821727897755
+        },
+        {
+          "gene": "SGK223",
+          "log_odds": 0.06763982546894748
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": 0.06007266315877473
+        }
+      ],
+      "other_genes": 0.05903984820743291,
+      "total_log_odds": 0.4964820506535213
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0432015179893315,
+      "top_terms": [
+        {
+          "gene": "GJB2",
+          "log_odds": 0.2543611034693644
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.13717471571725495
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.09585010549225517
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.050558591001829266
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": 0.031492816736438195
+        }
+      ],
+      "other_genes": 0.033282626561729756,
+      "total_log_odds": 0.5595184409895403
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.07493634084034743,
+      "top_terms": [
+        {
+          "gene": "P2RY11",
+          "log_odds": -0.041200181314068704
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04099315802207232
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.03345039520364744
+        },
+        {
+          "gene": "SGK223",
+          "log_odds": -0.021854084670088206
+        },
+        {
+          "gene": "STX11",
+          "log_odds": -0.01873901244999456
+        }
+      ],
+      "other_genes": -0.005492825961102087,
+      "total_log_odds": 0.06209378967081364
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25997541858780204,
+      "top_terms": [
+        {
+          "gene": "RSAD2",
+          "log_odds": 0.13282481923106867
+        },
+        {
+          "gene": "CD38",
+          "log_odds": 0.10189288967984282
+        },
+        {
+          "gene": "CFB",
+          "log_odds": 0.08914297813242023
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.08688904812252464
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.0858061458920634
+        }
+      ],
+      "other_genes": 1.2456891381126045,
+      "total_log_odds": 1.4822696005827223
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "SOX8",
+          "log_odds": 0.16673581744052077
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.13011244989366802
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.1221560382051139
+        },
+        {
+          "gene": "GPD1L",
+          "log_odds": 0.1143378432484251
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.10088679850690725
+        }
+      ],
+      "other_genes": 0.4947616132292182,
+      "total_log_odds": 0.9495626768507224
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.18228154094241972,
+      "top_terms": [
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.1582201407533131
+        },
+        {
+          "gene": "PFKFB3",
+          "log_odds": 0.12755629804316893
+        },
+        {
+          "gene": "IRAK2",
+          "log_odds": 0.12704082647617984
+        },
+        {
+          "gene": "SLC25A37",
+          "log_odds": 0.12637502632541014
+        },
+        {
+          "gene": "GJB2",
+          "log_odds": 0.11566137827146541
+        }
+      ],
+      "other_genes": 0.9053581854108973,
+      "total_log_odds": 1.377930314338015
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "MAOA",
+          "log_odds": 0.05155307938853306
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.04701356245119012
+        },
+        {
+          "gene": "SOX8",
+          "log_odds": 0.04059342058385166
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.03618670624540487
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": -0.035694317914154276
+        }
+      ],
+      "other_genes": -0.01618774905532086,
+      "total_log_odds": 0.3028925853726355
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25997541858780204,
+      "top_terms": [
+        {
+          "gene": "CFB",
+          "log_odds": 0.12543725583513146
+        },
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.11991514146858336
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.10859327360876726
+        },
+        {
+          "gene": "PARP14",
+          "log_odds": 0.10797369951264123
+        },
+        {
+          "gene": "CXCL10",
+          "log_odds": 0.09043922008382917
+        }
+      ],
+      "other_genes": 1.4519404540330132,
+      "total_log_odds": 1.7443236259541637
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "SOX8",
+          "log_odds": 0.22147086617524392
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.15642886849758933
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.13009813220630384
+        },
+        {
+          "gene": "CDR2L",
+          "log_odds": 0.11595870103358373
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.11019254861851203
+        }
+      ],
+      "other_genes": 0.47554519653860594,
+      "total_log_odds": 1.0302664293967079
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.18228154094241972,
+      "top_terms": [
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.16871577950140026
+        },
+        {
+          "gene": "PIM2",
+          "log_odds": 0.12527278254257837
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.09900605686617477
+        },
+        {
+          "gene": "IRAK2",
+          "log_odds": 0.0896132702798184
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.0841972603721574
+        }
+      ],
+      "other_genes": 0.7174335083150085,
+      "total_log_odds": 1.101957116934718
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "PIM1",
+          "log_odds": 0.08969122975977087
+        },
+        {
+          "gene": "SOX8",
+          "log_odds": 0.04788384979829564
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.04553112695177466
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.04378170245298766
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04351502998607968
+        }
+      ],
+      "other_genes": 0.09549199826208571,
+      "total_log_odds": 0.5453228208841251
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25997541858780204,
+      "top_terms": [
+        {
+          "gene": "CD38",
+          "log_odds": 0.15328330914639235
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.10644399881607837
+        },
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.10455393612108961
+        },
+        {
+          "gene": "JAK2",
+          "log_odds": 0.09387133466161292
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.08716760459406335
+        }
+      ],
+      "other_genes": 0.9525737244524984,
+      "total_log_odds": 1.237918489203933
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "PIM1",
+          "log_odds": 0.133007234909115
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.11559405061994249
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.11382017057917306
+        },
+        {
+          "gene": "GPD1L",
+          "log_odds": 0.08534636291069109
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.08170823457708161
+        }
+      ],
+      "other_genes": 0.3849167392085784,
+      "total_log_odds": 0.7349649091314507
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.18228154094241972,
+      "top_terms": [
+        {
+          "gene": "GJB2",
+          "log_odds": 0.17875361011803131
+        },
+        {
+          "gene": "PIM2",
+          "log_odds": 0.14160579765248704
+        },
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.13460239265884746
+        },
+        {
+          "gene": "PFKFB3",
+          "log_odds": 0.09982588877449779
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.09924802827580415
+        }
+      ],
+      "other_genes": 0.650584989017329,
+      "total_log_odds": 1.1223391655545771
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.17942788367313092,
+      "top_terms": [
+        {
+          "gene": "SOX8",
+          "log_odds": 0.04267028511204014
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.03663781112562249
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.034934555113812236
+        },
+        {
+          "gene": "P2RY11",
+          "log_odds": -0.03285834901659614
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.028282524398246307
+        }
+      ],
+      "other_genes": 0.013408387554276258,
+      "total_log_odds": 0.3025030979605322
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140506",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": -0.0012549319882810108,
+      "top_terms": [
+        {
+          "gene": "RSAD2",
+          "log_odds": 0.08375958763642267
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.05536976003609241
+        },
+        {
+          "gene": "IFI27",
+          "log_odds": 0.04828027631346746
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.04791160618681474
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.04744888817475026
+        }
+      ],
+      "other_genes": 2.5914054792547403,
+      "total_log_odds": 2.8729206656140067
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140505",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.019565189869422628,
+      "top_terms": [
+        {
+          "gene": "CLIC2",
+          "log_odds": 0.06486845522403982
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.05983228588715585
+        },
+        {
+          "gene": "CXCR2P1",
+          "log_odds": 0.05889482541248186
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.058305466345731444
+        },
+        {
+          "gene": "ZNF366",
+          "log_odds": 0.0575775783498862
+        }
+      ],
+      "other_genes": 2.838159027020802,
+      "total_log_odds": 3.118072448370675
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140504",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.023588544512084624,
+      "top_terms": [
+        {
+          "gene": "ACP5",
+          "log_odds": 0.07372935673005501
+        },
+        {
+          "gene": "CD300A",
+          "log_odds": 0.056126501976211954
+        },
+        {
+          "gene": "PLIN2",
+          "log_odds": -0.05082607776191166
+        },
+        {
+          "gene": "GJB2",
+          "log_odds": 0.050618535768084734
+        },
+        {
+          "gene": "PLA2G15",
+          "log_odds": 0.04954975997503123
+        }
+      ],
+      "other_genes": 3.0634026500978213,
+      "total_log_odds": 3.2190121822732083
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140503",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.019565189869422628,
+      "top_terms": [
+        {
+          "gene": "PCOLCE2",
+          "log_odds": 0.09124862320980917
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.09000398874283176
+        },
+        {
+          "gene": "TESC",
+          "log_odds": 0.0569497830761644
+        },
+        {
+          "gene": "APOC1",
+          "log_odds": 0.05425976294333408
+        },
+        {
+          "gene": "S100P",
+          "log_odds": 0.053460655546583344
+        }
+      ],
+      "other_genes": 1.2467271023399784,
+      "total_log_odds": 1.6122151057281238
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140508",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.02082012185770364,
+      "top_terms": [
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.07038256800654247
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.057551672479628946
+        },
+        {
+          "gene": "CFB",
+          "log_odds": 0.05596791684893227
+        },
+        {
+          "gene": "PCOLCE2",
+          "log_odds": 0.05453349618280514
+        },
+        {
+          "gene": "IFI27",
+          "log_odds": 0.05357164534608838
+        }
+      ],
+      "other_genes": 2.851638465286845,
+      "total_log_odds": 3.122825642293139
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140536",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.019565189869422628,
+      "top_terms": [
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.07862723861129559
+        },
+        {
+          "gene": "CLIC2",
+          "log_odds": 0.06815038655974763
+        },
+        {
+          "gene": "APOC1",
+          "log_odds": -0.05815303345789574
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.05485790682230154
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.05067210768043486
+        }
+      ],
+      "other_genes": 2.375528864492131,
+      "total_log_odds": 2.5501182808385923
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140513",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.023588544512084624,
+      "top_terms": [
+        {
+          "gene": "ACP5",
+          "log_odds": 0.08250705044214911
+        },
+        {
+          "gene": "PIM2",
+          "log_odds": 0.05081231930464915
+        },
+        {
+          "gene": "GRAMD1A",
+          "log_odds": 0.05054200795166095
+        },
+        {
+          "gene": "TNIP3",
+          "log_odds": 0.05052882740028636
+        },
+        {
+          "gene": "USP13",
+          "log_odds": 0.05034833682219701
+        }
+      ],
+      "other_genes": 2.428304289611089,
+      "total_log_odds": 2.6894542870199474
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140514",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.023588544512084624,
+      "top_terms": [
+        {
+          "gene": "PCOLCE2",
+          "log_odds": 0.1406655777184013
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.11753715249165175
+        },
+        {
+          "gene": "PLIN2",
+          "log_odds": 0.0874119272545651
+        },
+        {
+          "gene": "KLHDC8B",
+          "log_odds": 0.08510782251613307
+        },
+        {
+          "gene": "APOC1",
+          "log_odds": 0.08146192989361027
+        }
+      ],
+      "other_genes": 2.5424634916101008,
+      "total_log_odds": 3.0782364459965468
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140446",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.02082012185770364,
+      "top_terms": [
+        {
+          "gene": "S100P",
+          "log_odds": -0.08239692676166153
+        },
+        {
+          "gene": "CD38",
+          "log_odds": 0.080279049243566
+        },
+        {
+          "gene": "PSMB9",
+          "log_odds": 0.06136651659892522
+        },
+        {
+          "gene": "IFI27",
+          "log_odds": 0.05990271253205358
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.05641261151547391
+        }
+      ],
+      "other_genes": 2.0550239598526563,
+      "total_log_odds": 2.2097678011233097
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140444",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.019565189869422628,
+      "top_terms": [
+        {
+          "gene": "CCL26",
+          "log_odds": 0.09291927694518733
+        },
+        {
+          "gene": "PLIN2",
+          "log_odds": 0.09012695003416123
+        },
+        {
+          "gene": "CLEC4G",
+          "log_odds": 0.0742517122542776
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.07381274263222581
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.07228123178323971
+        }
+      ],
+      "other_genes": 2.625761989368968,
+      "total_log_odds": 3.009588713148637
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140445",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.023588544512084624,
+      "top_terms": [
+        {
+          "gene": "PCOLCE2",
+          "log_odds": -0.07949787742100076
+        },
+        {
+          "gene": "GJB2",
+          "log_odds": 0.07823048750289807
+        },
+        {
+          "gene": "NKG7",
+          "log_odds": 0.05907447719818484
+        },
+        {
+          "gene": "TNIP3",
+          "log_odds": 0.05745913156095398
+        },
+        {
+          "gene": "PIM2",
+          "log_odds": 0.05743720910216172
+        }
+      ],
+      "other_genes": 2.0277962213491505,
+      "total_log_odds": 2.176911104780264
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140443",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.019565189869422628,
+      "top_terms": [
+        {
+          "gene": "PLA2G15",
+          "log_odds": 0.07953090459229326
+        },
+        {
+          "gene": "DAB2",
+          "log_odds": 0.07691689304809665
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.06783395596562049
+        },
+        {
+          "gene": "TESC",
+          "log_odds": 0.0622609074147995
+        },
+        {
+          "gene": "CALR",
+          "log_odds": 0.059388892940265815
+        }
+      ],
+      "other_genes": 1.277862936722823,
+      "total_log_odds": 1.6433596805533213
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 1.5949418538397209,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": -1.6222574520489776
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.914518946729148
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.2602003404954823
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.07933099601507945
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.006324409670625808
+        }
+      ],
+      "other_genes": 1.1102230246251565e-16,
+      "total_log_odds": 1.0617482833296683
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -4.562893326588954,
+      "top_terms": [
+        {
+          "gene": "IL1B",
+          "log_odds": 6.437161532903473
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 2.1716179303287855
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 1.738844024442379
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -1.2575140144113592
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.19867961029374487
+        }
+      ],
+      "other_genes": 1.7763568394002505e-15,
+      "total_log_odds": 4.72589575696807
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -1.5949418538397209,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": 5.74611565637189
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 4.149322241392293
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -2.4177628881858464
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 1.0031947804770784
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.0027335220337031505
+        }
+      ],
+      "other_genes": 1.7763568394002505e-15,
+      "total_log_odds": 6.888661458249398
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.6086702266585815,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.9953270900492858
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.9317217630015557
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.46612717242464086
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.4572248876317458
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.2943693064510396
+        }
+      ],
+      "other_genes": -2.220446049250313e-16,
+      "total_log_odds": 2.2502520580512786
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 1.5949418538397209,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": 4.357157080004142
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": -2.848151643458203
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.6965273659107267
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.6314071071232276
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.0044868708390914495
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 3.164580678334068
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "con",
+      "intercept": -4.562893326588954,
+      "top_terms": [
+        {
+          "gene": "IL1B",
+          "log_odds": 3.021982532636356
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 2.4532262306852965
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.6920058012082698
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.5813272206738974
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.17976961838654662
+        }
+      ],
+      "other_genes": 8.881784197001252e-16,
+      "total_log_odds": 1.2027636356536178
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -1.5949418538397209,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 1.062588875888198
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.8831427267301881
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.8774290388644524
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.8467857360495599
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.024066359550118974
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.2960800864136539
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.6086702266585815,
+      "top_terms": [
+        {
+          "gene": "TNF",
+          "log_odds": 2.160767607290791
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -1.7813667403551119
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.47373637577517164
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.36301798291203957
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.105460746508038
+        }
+      ],
+      "other_genes": -5.551115123125783e-17,
+      "total_log_odds": 0.7718919542230904
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.23278365019965402,
+      "top_terms": [
+        {
+          "gene": "IRF1",
+          "log_odds": 0.12024304265513495
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.11970492510530817
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.1091380844610318
+        },
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.09453016160378544
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.09437268496017427
+        }
+      ],
+      "other_genes": 0.9293678041242344,
+      "total_log_odds": 1.234573052710015
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.16156979470545352
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.12273617139712092
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.1091621853205591
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.08633317893942424
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.050803626086073604
+        }
+      ],
+      "other_genes": 0.16109915914148698,
+      "total_log_odds": 0.48580240132350955
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.28474945258620643,
+      "top_terms": [
+        {
+          "gene": "EREG",
+          "log_odds": 0.12252183266293716
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.11814872589172931
+        },
+        {
+          "gene": "SPRY1",
+          "log_odds": 0.11723436586566914
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.11565646710657562
+        },
+        {
+          "gene": "DDIAS",
+          "log_odds": 0.11073884757044619
+        }
+      ],
+      "other_genes": 1.0356843077921951,
+      "total_log_odds": 1.3352350943033462
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "RAP1GAP",
+          "log_odds": 0.08156255165488946
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.04729917991865681
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04650993483158092
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.04339911508473852
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.03363206760190819
+        }
+      ],
+      "other_genes": 0.14100310966140744,
+      "total_log_odds": 0.5993076730197902
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.23278365019965402,
+      "top_terms": [
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.14272387759129923
+        },
+        {
+          "gene": "IRF1",
+          "log_odds": 0.13564231621855125
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.12552103360111405
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.11448343061847024
+        },
+        {
+          "gene": "CFB",
+          "log_odds": 0.1124620271325666
+        }
+      ],
+      "other_genes": 1.2707038592079687,
+      "total_log_odds": 1.668752894170316
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "ESPNL",
+          "log_odds": 0.19525273861495773
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.1795682190354558
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.16523783003544182
+        },
+        {
+          "gene": "RAP1GAP",
+          "log_odds": 0.1464307446516132
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.1446291420841696
+        }
+      ],
+      "other_genes": 0.5446410926384841,
+      "total_log_odds": 1.1698580527935134
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.28474945258620643,
+      "top_terms": [
+        {
+          "gene": "ZSWIM4",
+          "log_odds": 0.11374484917348755
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.10506936266065968
+        },
+        {
+          "gene": "STAT4",
+          "log_odds": 0.10503337974435407
+        },
+        {
+          "gene": "DDIAS",
+          "log_odds": 0.10335669419215938
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.0954471566954872
+        }
+      ],
+      "other_genes": 0.8381777617117205,
+      "total_log_odds": 1.076079751591662
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "DDIAS",
+          "log_odds": 0.05542564656764051
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.048162088934505125
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.04804366920475464
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.039439748458882255
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.03837269875607592
+        }
+      ],
+      "other_genes": 0.15923708805769438,
+      "total_log_odds": 0.5945826542461616
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.022128129297395882,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 0.19604339868926113
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.1623479782469084
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.14681204369793813
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.0004795380772812699
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.00022695054822586408
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.4828227038076563
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0005967790010183594,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": -0.0051991236988494435
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.004167546970154619
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.004033998595233986
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.003788436778698681
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.002955153772454464
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.009149233416673947
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.010862044782044007,
+      "top_terms": [
+        {
+          "gene": "HEY1",
+          "log_odds": 0.21887374444160318
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.2031304311036802
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.005873818548715126
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.005683072380533808
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.0033019947921378947
+        }
+      ],
+      "other_genes": -5.551115123125783e-17,
+      "total_log_odds": 0.4028872346261283
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0005967790010183594,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": -0.006108941903510771
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.0036177571072017467
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.0034957654691660516
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.0034271004737705065
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.0024482277036883327
+        }
+      ],
+      "other_genes": -1.734723475976807e-18,
+      "total_log_odds": 0.006283129849297506
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.022128129297395882,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 0.20556856798083536
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.19694420595877188
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.1818503943696795
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.000255377736101768
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.0002219744700581423
+        }
+      ],
+      "other_genes": -1.1102230246251565e-16,
+      "total_log_odds": 0.5622684422779345
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0005967790010183594,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": -0.005676173210982565
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.0039827871740407686
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.003978925830609556
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.003623834935929303
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.0031714013881223493
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.008483997116701053
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.010862044782044007,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.18097946431817089
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.09854076043317529
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.013785733537451826
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.004071361767470387
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.0018423856050666537
+        }
+      ],
+      "other_genes": -5.551115123125783e-17,
+      "total_log_odds": 0.2526434702694466
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.0005967790010183594,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": -0.006972213319120449
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.004481040345178011
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.003235106507119495
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.0029122665318563057
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.0011324624531885456
+        }
+      ],
+      "other_genes": 1.734723475976807e-18,
+      "total_log_odds": 0.0041918835172035495
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.9641365731973305,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.6625392332800433
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 1.0842616661581372
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.0465679151724963
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.8190659601576659
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.5047001879837977
+        }
+      ],
+      "other_genes": -0.6795114521472794,
+      "total_log_odds": 3.4734869374075306
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.6817378971414457,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 2.65203199848822
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.3795508994038086
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.29176986322961096
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.18211103439040904
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": -0.16425053645766352
+        }
+      ],
+      "other_genes": -0.15174262612561007,
+      "total_log_odds": 1.9241930093281074
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.9091157447417406,
+      "top_terms": [
+        {
+          "gene": "HEY1",
+          "log_odds": 1.9108581093977515
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 1.740765062755163
+        },
+        {
+          "gene": "ADGRE3",
+          "log_odds": 1.2288286136378574
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": -0.41505131248053884
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.33516746998615626
+        }
+      ],
+      "other_genes": -0.26423882304278656,
+      "total_log_odds": 3.6272133755118614
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.6817378971414457,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 1.1299318995744219
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.3428279931211138
+        },
+        {
+          "gene": "PID1",
+          "log_odds": -0.19510200564954097
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.1360750555350394
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.1156624372293737
+        }
+      ],
+      "other_genes": 0.12534982449798981,
+      "total_log_odds": 2.3364831014498435
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.9641365731973305,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.743317100613272
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 1.315316982686945
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.296343156290008
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.7460862110190262
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.7373660263132348
+        }
+      ],
+      "other_genes": -0.6441835311327067,
+      "total_log_odds": 4.230109372592449
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.6817378971414457,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 4.362505765115725
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.3522988868427422
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.318541426856696
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.23804867898382276
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": -0.20141653466852966
+        }
+      ],
+      "other_genes": -0.09863761484886258,
+      "total_log_odds": 3.652519857426756
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.9091157447417406,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 1.550938118180899
+        },
+        {
+          "gene": "ADGRE3",
+          "log_odds": 1.0271156415230074
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.8603015024042455
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": -0.5921317637760988
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.46551716952482747
+        }
+      ],
+      "other_genes": -0.29685809524467954,
+      "total_log_odds": 2.10576682787046
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.6817378971414457,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 1.1700700255611998
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.39127396160580447
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.12086416429535468
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.09635653418602826
+        },
+        {
+          "gene": "PID1",
+          "log_odds": -0.08160156115784505
+        }
+      ],
+      "other_genes": -0.01314655757727734,
+      "total_log_odds": 2.3655544640547106
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.9109920104243768,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.036466193324008
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.6879224435564859
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.6509022948985655
+        },
+        {
+          "gene": "AIM2",
+          "log_odds": 0.5939554812241217
+        },
+        {
+          "gene": "WARS",
+          "log_odds": 0.538729697065022
+        }
+      ],
+      "other_genes": 0.911051451569262,
+      "total_log_odds": 3.5080355512130885
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.8137424428000257,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 1.7312019803751555
+        },
+        {
+          "gene": "ESPNL",
+          "log_odds": 0.662772347473225
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.2626790263818776
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.18246351360062862
+        },
+        {
+          "gene": "WARS",
+          "log_odds": -0.13297219290358564
+        }
+      ],
+      "other_genes": -0.009238924290451145,
+      "total_log_odds": 1.518236280635567
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.0029228029100006,
+      "top_terms": [
+        {
+          "gene": "HEY1",
+          "log_odds": 0.9525555732664898
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.9174117879554148
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.8610266988408741
+        },
+        {
+          "gene": "SPRY1",
+          "log_odds": 0.7541515189095829
+        },
+        {
+          "gene": "STAT4",
+          "log_odds": 0.6499777762301946
+        }
+      ],
+      "other_genes": 1.112202462137109,
+      "total_log_odds": 4.244403014429665
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.8137424428000257,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.7376005807423855
+        },
+        {
+          "gene": "ESPNL",
+          "log_odds": 0.4594282531463934
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.21439363028491887
+        },
+        {
+          "gene": "PID1",
+          "log_odds": -0.135025908171142
+        },
+        {
+          "gene": "LOC100419583",
+          "log_odds": 0.1243541646905917
+        }
+      ],
+      "other_genes": 0.27680623109987,
+      "total_log_odds": 2.4912993945930433
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.9109920104243768,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 1.0868250221466664
+        },
+        {
+          "gene": "WARS",
+          "log_odds": 0.8704450731538476
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.8345181804568004
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.8062474715423905
+        },
+        {
+          "gene": "LOC100419583",
+          "log_odds": 0.6711935081372895
+        }
+      ],
+      "other_genes": 1.0053963000635013,
+      "total_log_odds": 4.363633545076119
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.8137424428000257,
+      "top_terms": [
+        {
+          "gene": "ESPNL",
+          "log_odds": 2.9678315441474035
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 2.847770548874063
+        },
+        {
+          "gene": "PTPRO",
+          "log_odds": 0.27172590277936687
+        },
+        {
+          "gene": "PID1",
+          "log_odds": 0.2438184937425607
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.19920559076346622
+        }
+      ],
+      "other_genes": -0.3586685013232813,
+      "total_log_odds": 4.95952995465662
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.0029228029100006,
+      "top_terms": [
+        {
+          "gene": "STAT4",
+          "log_odds": 0.889465191565796
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.815851979192603
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.7671334613587656
+        },
+        {
+          "gene": "IL1A",
+          "log_odds": 0.7105160919847202
+        },
+        {
+          "gene": "ADGRE3",
+          "log_odds": 0.49287941272835645
+        }
+      ],
+      "other_genes": 0.5916268251310264,
+      "total_log_odds": 3.264550159051267
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.8137424428000257,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.7638020757607218
+        },
+        {
+          "gene": "ESPNL",
+          "log_odds": 0.41857892760360377
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.2446901850135529
+        },
+        {
+          "gene": "LOC100419583",
+          "log_odds": 0.17492410946105721
+        },
+        {
+          "gene": "STAT4",
+          "log_odds": 0.15352613345502025
+        }
+      ],
+      "other_genes": 0.04693925442464475,
+      "total_log_odds": 2.6162031285186265
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.23278365019965402,
+      "top_terms": [
+        {
+          "gene": "IRF1",
+          "log_odds": 0.12024304265513495
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.11970492510530817
+        },
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.1091380844610318
+        },
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.09453016160378544
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.09437268496017427
+        }
+      ],
+      "other_genes": 0.9293678041242344,
+      "total_log_odds": 1.234573052710015
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.16156979470545352
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.12273617139712092
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.1091621853205591
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.08633317893942424
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.050803626086073604
+        }
+      ],
+      "other_genes": 0.16109915914148698,
+      "total_log_odds": 0.48580240132350955
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.28474945258620643,
+      "top_terms": [
+        {
+          "gene": "EREG",
+          "log_odds": 0.12252183266293716
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.11814872589172931
+        },
+        {
+          "gene": "SPRY1",
+          "log_odds": 0.11723436586566914
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.11565646710657562
+        },
+        {
+          "gene": "DDIAS",
+          "log_odds": 0.11073884757044619
+        }
+      ],
+      "other_genes": 1.0356843077921951,
+      "total_log_odds": 1.3352350943033462
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "RAP1GAP",
+          "log_odds": 0.08156255165488946
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.04729917991865681
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04650993483158092
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.04339911508473852
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.03363206760190819
+        }
+      ],
+      "other_genes": 0.14100310966140744,
+      "total_log_odds": 0.5993076730197902
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.23278365019965402,
+      "top_terms": [
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.14272387759129923
+        },
+        {
+          "gene": "IRF1",
+          "log_odds": 0.13564231621855125
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.12552103360111405
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.11448343061847024
+        },
+        {
+          "gene": "CFB",
+          "log_odds": 0.1124620271325666
+        }
+      ],
+      "other_genes": 1.2707038592079687,
+      "total_log_odds": 1.668752894170316
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "ESPNL",
+          "log_odds": 0.19525273861495773
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.1795682190354558
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.16523783003544182
+        },
+        {
+          "gene": "RAP1GAP",
+          "log_odds": 0.1464307446516132
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.1446291420841696
+        }
+      ],
+      "other_genes": 0.5446410926384841,
+      "total_log_odds": 1.1698580527935134
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.28474945258620643,
+      "top_terms": [
+        {
+          "gene": "ZSWIM4",
+          "log_odds": 0.11374484917348755
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.10506936266065968
+        },
+        {
+          "gene": "STAT4",
+          "log_odds": 0.10503337974435407
+        },
+        {
+          "gene": "DDIAS",
+          "log_odds": 0.10335669419215938
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.0954471566954872
+        }
+      ],
+      "other_genes": 0.8381777617117205,
+      "total_log_odds": 1.076079751591662
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2059017142666088,
+      "top_terms": [
+        {
+          "gene": "DDIAS",
+          "log_odds": 0.05542564656764051
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.048162088934505125
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.04804366920475464
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.039439748458882255
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.03837269875607592
+        }
+      ],
+      "other_genes": 0.15923708805769438,
+      "total_log_odds": 0.5945826542461616
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140502",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.005089905042647852,
+      "top_terms": [
+        {
+          "gene": "APOBEC3A",
+          "log_odds": 0.058251418190047824
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.04847664126746833
+        },
+        {
+          "gene": "FAM26F",
+          "log_odds": 0.04698865158967409
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.04648788723526302
+        },
+        {
+          "gene": "STAT1",
+          "log_odds": 0.04574544674590768
+        }
+      ],
+      "other_genes": 2.083382658512723,
+      "total_log_odds": 2.3344226085837314
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140501",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.018457836836423554,
+      "top_terms": [
+        {
+          "gene": "FCER2",
+          "log_odds": 0.07422845984403424
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.06496300094554631
+        },
+        {
+          "gene": "TMEM173",
+          "log_odds": 0.0623886483021408
+        },
+        {
+          "gene": "RAMP1",
+          "log_odds": 0.06215432635663167
+        },
+        {
+          "gene": "SOCS1",
+          "log_odds": 0.0609901114425256
+        }
+      ],
+      "other_genes": 1.8444898549621485,
+      "total_log_odds": 2.1507565650166036
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140500",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": -0.007280821486275329,
+      "top_terms": [
+        {
+          "gene": "RAMP1",
+          "log_odds": -0.04546400100554612
+        },
+        {
+          "gene": "SPRY1",
+          "log_odds": 0.04371100840575832
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.043659539187912995
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.04331908635649677
+        },
+        {
+          "gene": "MB21D2",
+          "log_odds": 0.04254605171058529
+        }
+      ],
+      "other_genes": 2.8799198952636083,
+      "total_log_odds": 3.0004107584325403
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140499",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.02573865832269888,
+      "top_terms": [
+        {
+          "gene": "SERPINB2",
+          "log_odds": -0.07546029180178049
+        },
+        {
+          "gene": "C17orf58",
+          "log_odds": 0.04515843699075864
+        },
+        {
+          "gene": "PLA2G15",
+          "log_odds": 0.04052584463258149
+        },
+        {
+          "gene": "SERINC2",
+          "log_odds": 0.03892488898096518
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.035447425857096544
+        }
+      ],
+      "other_genes": 0.9463825894007512,
+      "total_log_odds": 1.0567175523830714
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140540",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.005089905042647852,
+      "top_terms": [
+        {
+          "gene": "GBP1P1",
+          "log_odds": 0.0660342492902569
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.056394419795764546
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.0508319779829445
+        },
+        {
+          "gene": "SLC6A12",
+          "log_odds": 0.05041535319883963
+        },
+        {
+          "gene": "WARS",
+          "log_odds": 0.05034179780793509
+        }
+      ],
+      "other_genes": 2.468745342451409,
+      "total_log_odds": 2.747853045569798
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140521",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.002190916443627477,
+      "top_terms": [
+        {
+          "gene": "ESPNL",
+          "log_odds": 0.07667517136392817
+        },
+        {
+          "gene": "DHRS11",
+          "log_odds": 0.0738833261432324
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.07352143069071053
+        },
+        {
+          "gene": "CD14",
+          "log_odds": 0.06353182348567542
+        },
+        {
+          "gene": "PALLD",
+          "log_odds": 0.0626396595473789
+        }
+      ],
+      "other_genes": 3.09773533150834,
+      "total_log_odds": 3.4501776591828928
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140517",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": -0.007280821486275329,
+      "top_terms": [
+        {
+          "gene": "EBI3",
+          "log_odds": 0.052906741706310725
+        },
+        {
+          "gene": "CCR7",
+          "log_odds": 0.04718765140116437
+        },
+        {
+          "gene": "PTPRF",
+          "log_odds": 0.042834977286935354
+        },
+        {
+          "gene": "UPB1",
+          "log_odds": 0.040515249188738306
+        },
+        {
+          "gene": "ADAM19",
+          "log_odds": -0.0401477084657714
+        }
+      ],
+      "other_genes": 2.284539676519911,
+      "total_log_odds": 2.420555766151013
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140523",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.02064875328005103,
+      "top_terms": [
+        {
+          "gene": "CYTL1",
+          "log_odds": 0.12127465083864598
+        },
+        {
+          "gene": "CTSG",
+          "log_odds": 0.1100523299504851
+        },
+        {
+          "gene": "NRGN",
+          "log_odds": 0.08232523301891713
+        },
+        {
+          "gene": "PLTP",
+          "log_odds": 0.06739653339333361
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.06360367784418054
+        }
+      ],
+      "other_genes": 1.932442729042973,
+      "total_log_odds": 2.3977439073685867
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.4023880489384606,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.9572711932891422
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.40012220651253866
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.3430617198681531
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.2025765830534931
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.07301982016101755
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.022470667516862886
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.4023880489384606,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 2.0219313322398875
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.9053232059423936
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.4360795837024129
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.34642744955151294
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.06291412878060086
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 1.4981284838735216
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.470152162494308,
+      "top_terms": [
+        {
+          "gene": "NR1H3",
+          "log_odds": 1.4597159298797895
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 1.134693100539785
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.9767704848260476
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.5966953281532873
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.5359498963087375
+        }
+      ],
+      "other_genes": 4.440892098500626e-16,
+      "total_log_odds": 1.9683821282892895
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.39682540829190877,
+      "top_terms": [
+        {
+          "gene": "TNF",
+          "log_odds": 1.41587921889618
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.48764465860748685
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.48657272032097554
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.3736137915911626
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": -0.36665506544558407
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 1.0713638318648306
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.470152162494308,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.8353100107462192
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.6756294666957507
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": -0.3755796287725776
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.26617114688131177
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.1882546787563261
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.1763366096472132
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.4023880489384606,
+      "top_terms": [
+        {
+          "gene": "IL1B",
+          "log_odds": 0.9865205655340767
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.5127787678005394
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.4259787458546211
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.39171931873870935
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.22724910233961398
+        }
+      ],
+      "other_genes": 2.220446049250313e-16,
+      "total_log_odds": 0.28990095961985785
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.470152162494308,
+      "top_terms": [
+        {
+          "gene": "IL1B",
+          "log_odds": 1.1073815250327412
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": 0.7308520630300073
+        },
+        {
+          "gene": "ABCA1",
+          "log_odds": 0.6321585067221683
+        },
+        {
+          "gene": "TNF",
+          "log_odds": -0.4577698826775614
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": 0.4314324353827385
+        }
+      ],
+      "other_genes": 4.440892098500626e-16,
+      "total_log_odds": 1.973902484995786
+    }
+  },
+  {
+    "model_id": "thesis_lr",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.39682540829190877,
+      "top_terms": [
+        {
+          "gene": "ABCA1",
+          "log_odds": -0.3576356873278068
+        },
+        {
+          "gene": "ABCG1",
+          "log_odds": -0.19613383169311366
+        },
+        {
+          "gene": "TNF",
+          "log_odds": 0.1765085983513011
+        },
+        {
+          "gene": "IL1B",
+          "log_odds": 0.14158931680409825
+        },
+        {
+          "gene": "NR1H3",
+          "log_odds": -0.12764494392902206
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.03350886049736562
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5527989251987285,
+      "top_terms": [
+        {
+          "gene": "AIM2",
+          "log_odds": 0.5080290025985438
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.45451786640167174
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.444215561246505
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.4351248923305171
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.3586259856654167
+        }
+      ],
+      "other_genes": 0.5323532743855592,
+      "total_log_odds": 2.1800676574294853
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.47158372939478327,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.43904460336176254
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.3938647447684055
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.28076934003888343
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.22834690664223692
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": -0.0877279167492752
+        }
+      ],
+      "other_genes": -0.309780591523131,
+      "total_log_odds": 0.47293335714409895
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.41972770585009805,
+      "top_terms": [
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.5747534237600188
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.5668010279592917
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.438123066694654
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.3446544411011508
+        },
+        {
+          "gene": "IL1A",
+          "log_odds": 0.34393801752643843
+        }
+      ],
+      "other_genes": 0.07202951068326646,
+      "total_log_odds": 1.9205717818747223
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.41972770585009805,
+      "top_terms": [
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.21977041842868297
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.21806249573182498
+        },
+        {
+          "gene": "IL1A",
+          "log_odds": 0.18340627929584633
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.1620387876493367
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.13298353128406679
+        }
+      ],
+      "other_genes": 0.4746299307433033,
+      "total_log_odds": 1.8106191489831591
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5527989251987285,
+      "top_terms": [
+        {
+          "gene": "TAP1",
+          "log_odds": 0.49025389556819876
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.4331554383417061
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.4077746657993411
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.39889324161539136
+        },
+        {
+          "gene": "CXCL10",
+          "log_odds": 0.38332172144129256
+        }
+      ],
+      "other_genes": 1.1504001464654254,
+      "total_log_odds": 2.7110001840326268
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.47158372939478327,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.5753555488888948
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.44419797896039975
+        },
+        {
+          "gene": "RAB33A",
+          "log_odds": 0.3884350288402812
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.3800856742908096
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.1753975138430069
+        }
+      ],
+      "other_genes": -0.37453727248797364,
+      "total_log_odds": 1.1173507429406353
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.41972770585009805,
+      "top_terms": [
+        {
+          "gene": "IL1A",
+          "log_odds": 0.5486220852880795
+        },
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.5192126922648136
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.4919960074936779
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.42815915437761676
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.3992433949366288
+        }
+      ],
+      "other_genes": -0.22001531891469517,
+      "total_log_odds": 1.7474903095960237
+    }
+  },
+  {
+    "model_id": "compact_lr",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.47158372939478327,
+      "top_terms": [
+        {
+          "gene": "RAB33A",
+          "log_odds": 0.2154137006853355
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.1954811850226332
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.18032880641942137
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.15585270022137032
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.1351242510708363
+        }
+      ],
+      "other_genes": 0.44573862655549656,
+      "total_log_odds": 1.7995229993698767
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.1012405877552038,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 2.1541566799796663
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.473544550554303
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 1.138945944813169
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.21784291976495299
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.035981212305816974
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 3.4115824555211645
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.4196129412716716,
+      "top_terms": [
+        {
+          "gene": "ANKRD22",
+          "log_odds": 1.2495376786268049
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.6820112527772623
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.21447206689277193
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.031130483581210452
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.00038158153273468257
+        }
+      ],
+      "other_genes": 1.1102230246251565e-16,
+      "total_log_odds": 0.3938976165845881
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": -0.13659809098003056,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 3.0409756151291973
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.6679193929884846
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.015272726889130967
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.01161470716479901
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.0025398444117820224
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 2.2121105415185345
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.4196129412716716,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 0.6961661781484104
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.4615575792564136
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.15286170679826472
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.022193326964685164
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.0002661594785348511
+        }
+      ],
+      "other_genes": 8.326672684688674e-17,
+      "total_log_odds": 0.47890034692218375
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "con",
+      "intercept": -1.1012405877552038,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 2.052910897343495
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 1.3809233790888304
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.9754732284789143
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.23386636350975148
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.03657564873783045
+        }
+      ],
+      "other_genes": 8.881784197001252e-16,
+      "total_log_odds": 3.0376249049084545
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.4196129412716716,
+      "top_terms": [
+        {
+          "gene": "ANKRD22",
+          "log_odds": 1.5248170017115605
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.4673504410506018
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.1919989746020855
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.03939709992257878
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.0005173555028362043
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 0.8697670494167877
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5562110322517021,
+      "top_terms": [
+        {
+          "gene": "ACKR3",
+          "log_odds": 2.9507714271401593
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.1777503396627191
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.13458626358420894
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.12745010893010678
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.02027673460181663
+        }
+      ],
+      "other_genes": 0.0,
+      "total_log_odds": 2.229950635173453
+    }
+  },
+  {
+    "model_id": "compact_lr_k5",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.4196129412716716,
+      "top_terms": [
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.8226515125765755
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.7000435188859212
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": -0.15825040406424898
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": -0.03532455126835281
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.0004605202753959924
+        }
+      ],
+      "other_genes": 5.551115123125783e-17,
+      "total_log_odds": 0.10296947197301953
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5197315383381477,
+      "top_terms": [
+        {
+          "gene": "AIM2",
+          "log_odds": 0.6867170137302917
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.6191573880238415
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.5871523782758488
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.48526843312963314
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.4399189451052092
+        }
+      ],
+      "other_genes": 0.07947144995587996,
+      "total_log_odds": 2.377954069882557
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2148933484495934,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.8943685468002746
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.09752253724246386
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.08697010999648574
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.05809810660199382
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": -0.04732376886597531
+        }
+      ],
+      "other_genes": -0.0625386112651638,
+      "total_log_odds": 0.638263352067514
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.3350248427425897,
+      "top_terms": [
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.8133193431824292
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.6151278016479534
+        },
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.38815655928083587
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": -0.10952254035167154
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.05371039102958524
+        }
+      ],
+      "other_genes": 0.002580852057813887,
+      "total_log_odds": 1.4283475641043564
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2148933484495934,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.5357613562618998
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.0887751468071069
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.04961448627520003
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.036023136382763464
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": -0.015529032091195659
+        }
+      ],
+      "other_genes": 0.03902164049944368,
+      "total_log_odds": 0.8765138098192847
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5197315383381477,
+      "top_terms": [
+        {
+          "gene": "GBP5",
+          "log_odds": 0.5900568704486606
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.5502463063934682
+        },
+        {
+          "gene": "AIM2",
+          "log_odds": 0.5000441844909073
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.4471867338022897
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.4156179380589635
+        }
+      ],
+      "other_genes": 0.2032540276391539,
+      "total_log_odds": 2.186674522495296
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2148933484495934,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 1.172044713027103
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.11900723394013847
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": -0.05987854690927019
+        },
+        {
+          "gene": "SERPING1",
+          "log_odds": 0.05967117982703332
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": -0.059596552255643455
+        }
+      ],
+      "other_genes": -0.07952111607648948,
+      "total_log_odds": 0.9368335631032783
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.3350248427425897,
+      "top_terms": [
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.7264771222825293
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.6907657813873531
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.23439014357645135
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": -0.10567179809255431
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": -0.04794526524420455
+        }
+      ],
+      "other_genes": -0.027772870286912,
+      "total_log_odds": 1.135218270880073
+    }
+  },
+  {
+    "model_id": "compact_lr_k10",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2148933484495934,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.3982106192327579
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.0892695854971754
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": -0.06420539704011555
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.058752055963176335
+        },
+        {
+          "gene": "AIM2",
+          "log_odds": 0.03167952632603735
+        }
+      ],
+      "other_genes": 0.0534398733130349,
+      "total_log_odds": 0.7820396117416597
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5527989251987285,
+      "top_terms": [
+        {
+          "gene": "AIM2",
+          "log_odds": 0.5080290025985438
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.45451786640167174
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.444215561246505
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.4351248923305171
+        },
+        {
+          "gene": "GBP1",
+          "log_odds": 0.3586259856654167
+        }
+      ],
+      "other_genes": 0.5323532743855592,
+      "total_log_odds": 2.1800676574294853
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.47158372939478327,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.43904460336176254
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.3938647447684055
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.28076934003888343
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.22834690664223692
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": -0.0877279167492752
+        }
+      ],
+      "other_genes": -0.309780591523131,
+      "total_log_odds": 0.47293335714409895
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.41972770585009805,
+      "top_terms": [
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.5747534237600188
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.5668010279592917
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.438123066694654
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.3446544411011508
+        },
+        {
+          "gene": "IL1A",
+          "log_odds": 0.34393801752643843
+        }
+      ],
+      "other_genes": 0.07202951068326646,
+      "total_log_odds": 1.9205717818747223
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "TNFa+PGE2+P3C",
+      "intercept": 0.41972770585009805,
+      "top_terms": [
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.21977041842868297
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.21806249573182498
+        },
+        {
+          "gene": "IL1A",
+          "log_odds": 0.18340627929584633
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.1620387876493367
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.13298353128406679
+        }
+      ],
+      "other_genes": 0.4746299307433033,
+      "total_log_odds": 1.8106191489831591
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.5527989251987285,
+      "top_terms": [
+        {
+          "gene": "TAP1",
+          "log_odds": 0.49025389556819876
+        },
+        {
+          "gene": "GBP5",
+          "log_odds": 0.4331554383417061
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.4077746657993411
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.39889324161539136
+        },
+        {
+          "gene": "CXCL10",
+          "log_odds": 0.38332172144129256
+        }
+      ],
+      "other_genes": 1.1504001464654254,
+      "total_log_odds": 2.7110001840326268
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.47158372939478327,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.5753555488888948
+        },
+        {
+          "gene": "GALNT18",
+          "log_odds": 0.44419797896039975
+        },
+        {
+          "gene": "RAB33A",
+          "log_odds": 0.3884350288402812
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.3800856742908096
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.1753975138430069
+        }
+      ],
+      "other_genes": -0.37453727248797364,
+      "total_log_odds": 1.1173507429406353
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.41972770585009805,
+      "top_terms": [
+        {
+          "gene": "IL1A",
+          "log_odds": 0.5486220852880795
+        },
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.5192126922648136
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.4919960074936779
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.42815915437761676
+        },
+        {
+          "gene": "SOD2",
+          "log_odds": 0.3992433949366288
+        }
+      ],
+      "other_genes": -0.22001531891469517,
+      "total_log_odds": 1.7474903095960237
+    }
+  },
+  {
+    "model_id": "compact_lr_k20",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.47158372939478327,
+      "top_terms": [
+        {
+          "gene": "RAB33A",
+          "log_odds": 0.2154137006853355
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.1954811850226332
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.18032880641942137
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.15585270022137032
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.1351242510708363
+        }
+      ],
+      "other_genes": 0.44573862655549656,
+      "total_log_odds": 1.7995229993698767
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.23222555110359805,
+      "top_terms": [
+        {
+          "gene": "LOC100419583",
+          "log_odds": 0.13508342491011963
+        },
+        {
+          "gene": "BTN3A1",
+          "log_odds": 0.13036878613963607
+        },
+        {
+          "gene": "AIM2",
+          "log_odds": 0.12853958142871183
+        },
+        {
+          "gene": "GBP4",
+          "log_odds": 0.10830646721655049
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.1074240420514383
+        }
+      ],
+      "other_genes": 0.8267324003152435,
+      "total_log_odds": 1.2042291509581018
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2557975516564205,
+      "top_terms": [
+        {
+          "gene": "SHPK",
+          "log_odds": 0.1017884908022332
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.10049531535503665
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.09274140302745114
+        },
+        {
+          "gene": "PPP1R14A",
+          "log_odds": 0.08442587759765874
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.07676836340644964
+        }
+      ],
+      "other_genes": 0.23055302936054783,
+      "total_log_odds": 0.43097492789295677
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25471137113959663,
+      "top_terms": [
+        {
+          "gene": "IL24",
+          "log_odds": 0.11188716099135584
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.11036359491167513
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.11013019060853
+        },
+        {
+          "gene": "IL2RA",
+          "log_odds": 0.09807944022993087
+        },
+        {
+          "gene": "ACKR3",
+          "log_odds": 0.08341645791814498
+        }
+      ],
+      "other_genes": 0.625615843934994,
+      "total_log_odds": 0.8847813174550342
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2557975516564205,
+      "top_terms": [
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.05555568791566031
+        },
+        {
+          "gene": "RAB33A",
+          "log_odds": 0.04776504387325235
+        },
+        {
+          "gene": "ALOX15",
+          "log_odds": 0.04516281112833038
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.043004445893075026
+        },
+        {
+          "gene": "CXCL5",
+          "log_odds": 0.041643832702979375
+        }
+      ],
+      "other_genes": 0.265676818230292,
+      "total_log_odds": 0.75460619140001
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.23222555110359805,
+      "top_terms": [
+        {
+          "gene": "RARRES3",
+          "log_odds": 0.13696577881298588
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.11855742951826628
+        },
+        {
+          "gene": "ISG20",
+          "log_odds": 0.10725877225429824
+        },
+        {
+          "gene": "CXCL9",
+          "log_odds": 0.10458487555984133
+        },
+        {
+          "gene": "CXCL10",
+          "log_odds": 0.10359910886406734
+        }
+      ],
+      "other_genes": 1.113356782051652,
+      "total_log_odds": 1.4520971959575129
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.2557975516564205,
+      "top_terms": [
+        {
+          "gene": "SHPK",
+          "log_odds": 0.12155756441251467
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.12153498855244681
+        },
+        {
+          "gene": "NMNAT3",
+          "log_odds": 0.11834716880679272
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.10734438819249571
+        },
+        {
+          "gene": "CDR2L",
+          "log_odds": 0.10031455947452717
+        }
+      ],
+      "other_genes": 0.4481797605890282,
+      "total_log_odds": 0.7614808783713848
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.25471137113959663,
+      "top_terms": [
+        {
+          "gene": "CSGALNACT1",
+          "log_odds": 0.14897929196951148
+        },
+        {
+          "gene": "C1QTNF1",
+          "log_odds": 0.10767745719431714
+        },
+        {
+          "gene": "IL1A",
+          "log_odds": 0.10413532833160727
+        },
+        {
+          "gene": "ADORA2A",
+          "log_odds": 0.09823320784918073
+        },
+        {
+          "gene": "ZSWIM4",
+          "log_odds": 0.09624049271630111
+        }
+      ],
+      "other_genes": 0.8671582867853608,
+      "total_log_odds": 1.1677126937066817
+    }
+  },
+  {
+    "model_id": "compact_lr_k50",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IL4",
+      "intercept": 0.2557975516564205,
+      "top_terms": [
+        {
+          "gene": "SHPK",
+          "log_odds": 0.0691061506735998
+        },
+        {
+          "gene": "RAB33A",
+          "log_odds": 0.04606396129783279
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.0412923862989149
+        },
+        {
+          "gene": "PIM1",
+          "log_odds": 0.03974631097586491
+        },
+        {
+          "gene": "CDR2L",
+          "log_odds": 0.03871245049075717
+        }
+      ],
+      "other_genes": 0.2731240189011214,
+      "total_log_odds": 0.7638428302945115
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140498",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.021205560374101477,
+      "top_terms": [
+        {
+          "gene": "GBP4",
+          "log_odds": 0.049127281887759895
+        },
+        {
+          "gene": "LOC100419583",
+          "log_odds": 0.048262015301344496
+        },
+        {
+          "gene": "ANKRD22",
+          "log_odds": 0.048067573956100874
+        },
+        {
+          "gene": "RARRES3",
+          "log_odds": 0.04495496809211606
+        },
+        {
+          "gene": "TAP1",
+          "log_odds": 0.04470329218492925
+        }
+      ],
+      "other_genes": 2.4949219892642107,
+      "total_log_odds": 2.7088315603123596
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140497",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.020612738234295398,
+      "top_terms": [
+        {
+          "gene": "PALLD",
+          "log_odds": 0.0560551662426428
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.04474740111475159
+        },
+        {
+          "gene": "FCER2",
+          "log_odds": 0.04341773618304127
+        },
+        {
+          "gene": "DHRS11",
+          "log_odds": 0.0433092649857974
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.04119228055103237
+        }
+      ],
+      "other_genes": 1.638466251805852,
+      "total_log_odds": 1.8465753626488222
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140496",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": -0.0036357028991254575,
+      "top_terms": [
+        {
+          "gene": "PIM2",
+          "log_odds": 0.04793371772842815
+        },
+        {
+          "gene": "PTGES",
+          "log_odds": 0.04689359896620307
+        },
+        {
+          "gene": "HEY1",
+          "log_odds": 0.04528690758806933
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.045249037737509296
+        },
+        {
+          "gene": "ABHD17C",
+          "log_odds": 0.043371998855205166
+        }
+      ],
+      "other_genes": 2.248303601766662,
+      "total_log_odds": 2.4734031597429516
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140495",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.021205560374101477,
+      "top_terms": [
+        {
+          "gene": "TOP2A",
+          "log_odds": 0.06880183581275509
+        },
+        {
+          "gene": "CPED1",
+          "log_odds": 0.06288701983954484
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.05909660401328267
+        },
+        {
+          "gene": "SOCS1",
+          "log_odds": 0.056219587209636296
+        },
+        {
+          "gene": "PLA2G15",
+          "log_odds": 0.04880245674167622
+        }
+      ],
+      "other_genes": 1.1251492087352872,
+      "total_log_odds": 1.442162272726284
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140490",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.021205560374101477,
+      "top_terms": [
+        {
+          "gene": "HAPLN3",
+          "log_odds": 0.08096946458137388
+        },
+        {
+          "gene": "BATF2",
+          "log_odds": 0.07403242019135114
+        },
+        {
+          "gene": "RARRES3",
+          "log_odds": 0.06386843534564536
+        },
+        {
+          "gene": "CD68",
+          "log_odds": -0.06214919401199209
+        },
+        {
+          "gene": "VAMP5",
+          "log_odds": 0.06178389734445379
+        }
+      ],
+      "other_genes": 2.2880232886928438,
+      "total_log_odds": 2.485322751769574
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140492",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.020612738234295398,
+      "top_terms": [
+        {
+          "gene": "SOCS1",
+          "log_odds": 0.09588287165359258
+        },
+        {
+          "gene": "CORO1A",
+          "log_odds": 0.058632260816231886
+        },
+        {
+          "gene": "NMNAT3",
+          "log_odds": 0.05603813365776119
+        },
+        {
+          "gene": "FOXQ1",
+          "log_odds": 0.053981319904520396
+        },
+        {
+          "gene": "MAOA",
+          "log_odds": 0.047797077693596916
+        }
+      ],
+      "other_genes": 2.3223711565526157,
+      "total_log_odds": 2.614090082044023
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140538",
+    "details": {
+      "relative_to": "con",
+      "intercept": -0.024841263273226933,
+      "top_terms": [
+        {
+          "gene": "S100A12",
+          "log_odds": 0.06031193629872393
+        },
+        {
+          "gene": "TNIP1",
+          "log_odds": 0.05162593293404619
+        },
+        {
+          "gene": "A4GALT",
+          "log_odds": 0.048419910073808844
+        },
+        {
+          "gene": "NKG7",
+          "log_odds": 0.046270240811511196
+        },
+        {
+          "gene": "APOE",
+          "log_odds": 0.043298402349815454
+        }
+      ],
+      "other_genes": 2.2853187794010346,
+      "total_log_odds": 2.5104039385957133
+    }
+  },
+  {
+    "model_id": "broad_lr",
+    "sample_id": "GSM1140532",
+    "details": {
+      "relative_to": "IFNg",
+      "intercept": 0.021205560374101477,
+      "top_terms": [
+        {
+          "gene": "PLA2G15",
+          "log_odds": 0.08465123286331729
+        },
+        {
+          "gene": "CYTL1",
+          "log_odds": 0.07841283382259463
+        },
+        {
+          "gene": "NRGN",
+          "log_odds": 0.07637974507562068
+        },
+        {
+          "gene": "CORO1A",
+          "log_odds": 0.07167528474129588
+        },
+        {
+          "gene": "CALR",
+          "log_odds": 0.06516478892801245
+        }
+      ],
+      "other_genes": 2.614105194668692,
+      "total_log_odds": 3.0115946404736347
+    }
+  }
+]

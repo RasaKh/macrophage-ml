@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "classes": [
+    "con",
+    "IFNg",
+    "IL4",
+    "TNFa+PGE2+P3C"
+  ],
+  "primary_model": "compact_lr",
+  "results": {
+    "dummy": {
+      "balanced_accuracy": 0.25,
+      "accuracy": 0.25,
+      "macro_f1": 0.1,
+      "log_loss": 1.3862943611198901,
+      "donor_balanced_recall": 0.25,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        0.25,
+        0.25
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "thesis_lr": {
+      "balanced_accuracy": 0.7857142857142857,
+      "accuracy": 0.7857142857142857,
+      "macro_f1": 0.7891483516483517,
+      "log_loss": 0.7014500500170376,
+      "donor_balanced_recall": 0.7857142857142857,
+      "confusion": [
+        [
+          5,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          5,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          6,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          6
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        0.5714285714285714,
+        0.9642857142857143
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "compact_lr": {
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "log_loss": 0.5201674852015116,
+      "donor_balanced_recall": 1.0,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "compact_lr_k5": {
+      "balanced_accuracy": 0.9285714285714286,
+      "accuracy": 0.9285714285714286,
+      "macro_f1": 0.9270833333333334,
+      "log_loss": 0.49577011664793863,
+      "donor_balanced_recall": 0.9285714285714286,
+      "confusion": [
+        [
+          5,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        0.8214285714285714,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "compact_lr_k10": {
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "log_loss": 0.6309342268052153,
+      "donor_balanced_recall": 1.0,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "compact_lr_k20": {
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "log_loss": 0.49592125220154515,
+      "donor_balanced_recall": 1.0,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "compact_lr_k50": {
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "log_loss": 0.6082914621297019,
+      "donor_balanced_recall": 1.0,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "broad_lr": {
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "log_loss": 0.20253403525892527,
+      "donor_balanced_recall": 1.0,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "compact_gb": {
+      "balanced_accuracy": 0.9285714285714286,
+      "accuracy": 0.9285714285714286,
+      "macro_f1": 0.925,
+      "log_loss": 0.16672566638238545,
+      "donor_balanced_recall": 0.9285714285714286,
+      "confusion": [
+        [
+          5,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        0.8571428571428571,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "run_id": "gse46903_34b8b8ec86_s42",
+  "created_utc": "2026-09-29T05:25:58.517401+00:00",
+  "seed": 42,
+  "smoke": false,
+  "task_hash": "34b8b8ec8615a591a908effae836363556431f80cd45027536fa507c55b42ff2",
+  "n_samples": 28,
+  "n_donors": 7,
+  "procedures": [
+    "dummy",
+    "thesis_lr",
+    "compact_lr",
+    "compact_lr_k5",
+    "compact_lr_k10",
+    "compact_lr_k20",
+    "compact_lr_k50",
+    "broad_lr",
+    "compact_gb"
+  ],
+  "source_hashes": {
+    "GSE46903_series_matrix.txt.gz": "2f97da65f77cdf46bd3d73d85a34282acbffc33ee879bcbbb53f2bd740499e0f",
+    "GPL6947.annot.gz": "244c4ef6394abd8c87309318f3f27e9e63c45d2d1c3e89303818f1f63a290824"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "files": {
+    "explanations.json": "c69302d3ddd43589be34c4f0087c0f5edbe4ad98bb5922155b23982df4129690",
+    "predictions.csv.gz": "df510c975595d4309886bc86e233c536d882136288a387bd53fab25fe192551e",
+    "metrics.json": "921f095cd1d7105ac5eeea5d436952148ae3aa77a45817dda38ed0305897d6ed",
+    "splits.json": "cb1f8a915cfb13706978e7c114c935557b4ad06542427a11390ddd03181d182d",
+    "selected_genes.csv": "87918a0a4ac8d50fedfa9638ef39aff25c308ae88fd8cb5262ee96f2df57474d",
+    "task_definition.json": "d1fa0aa07814353c761e130e7741773a6aea59043f17e65f1e4431f6c17903d8"
+  }
+}

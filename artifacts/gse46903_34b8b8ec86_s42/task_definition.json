@@ -1,0 +1,69 @@
+{
+  "dataset": "GSE46903",
+  "platform": "GPL6947",
+  "cell_type": "Macrophage",
+  "differentiation": "GM-CSF",
+  "time": "72h",
+  "conditions": [
+    "con",
+    "IFNg",
+    "IL4",
+    "TNFa+PGE2+P3C"
+  ],
+  "donors": [
+    "BC11",
+    "BC13",
+    "BC52",
+    "BC58",
+    "BC76",
+    "BC78",
+    "BC9"
+  ],
+  "sample_ids": [
+    "GSM1140498",
+    "GSM1140497",
+    "GSM1140496",
+    "GSM1140495",
+    "GSM1140502",
+    "GSM1140501",
+    "GSM1140500",
+    "GSM1140499",
+    "GSM1140506",
+    "GSM1140505",
+    "GSM1140504",
+    "GSM1140503",
+    "GSM1140508",
+    "GSM1140536",
+    "GSM1140513",
+    "GSM1140514",
+    "GSM1140540",
+    "GSM1140521",
+    "GSM1140517",
+    "GSM1140523",
+    "GSM1140490",
+    "GSM1140492",
+    "GSM1140538",
+    "GSM1140532",
+    "GSM1140446",
+    "GSM1140444",
+    "GSM1140445",
+    "GSM1140443"
+  ],
+  "reference_panel": [
+    "ABCA1",
+    "ABCG1",
+    "NR1H3",
+    "TNF",
+    "IL1B"
+  ],
+  "selection": "exactly one sample per donor per condition",
+  "n_samples": 28,
+  "n_donors": 7,
+  "normalization": "Deposited log2 quantile-normalized matrix; upstream normalization may include evaluation samples",
+  "source_hashes": {
+    "GSE46903_series_matrix.txt.gz": "2f97da65f77cdf46bd3d73d85a34282acbffc33ee879bcbbb53f2bd740499e0f",
+    "GPL6947.annot.gz": "244c4ef6394abd8c87309318f3f27e9e63c45d2d1c3e89303818f1f63a290824"
+  },
+  "annotation_rule": "discard ambiguous/missing symbols; median across probes per gene within a sample",
+  "task_hash": "34b8b8ec8615a591a908effae836363556431f80cd45027536fa507c55b42ff2"
+}
