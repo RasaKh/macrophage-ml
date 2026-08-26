@@ -15,7 +15,8 @@
     "compact_lr_k20",
     "compact_lr_k50",
     "broad_lr",
-    "compact_gb"
+    "compact_gb",
+    "torch_mlp_k10"
   ],
   "source_hashes": {
     "GSE46903_series_matrix.txt.gz": "2f97da65f77cdf46bd3d73d85a34282acbffc33ee879bcbbb53f2bd740499e0f",
@@ -24,14 +25,17 @@
   "versions": {
     "numpy": "2.3.5",
     "pandas": "2.2.3",
-    "sklearn": "1.8.0"
+    "sklearn": "1.8.0",
+    "torch": "2.9.1+cpu"
   },
   "files": {
     "explanations.json": "c69302d3ddd43589be34c4f0087c0f5edbe4ad98bb5922155b23982df4129690",
-    "predictions.csv.gz": "df510c975595d4309886bc86e233c536d882136288a387bd53fab25fe192551e",
-    "metrics.json": "921f095cd1d7105ac5eeea5d436952148ae3aa77a45817dda38ed0305897d6ed",
+    "metrics.json": "e51f6f1c5bb86938323d9139a1d8f0ab8c41f9cbef7edacb313d5e9a629ceb3e",
+    "predictions.csv.gz": "54adb77f3e4813b954e03640f02844d487f667ac15f43a55859d5d3371a04914",
+    "selected_genes.csv": "82d1cde0dd1c384361b600f540b88ac93bc1ce7e5ea446a636d7898b6ca87feb",
     "splits.json": "cb1f8a915cfb13706978e7c114c935557b4ad06542427a11390ddd03181d182d",
-    "selected_genes.csv": "87918a0a4ac8d50fedfa9638ef39aff25c308ae88fd8cb5262ee96f2df57474d",
-    "task_definition.json": "d1fa0aa07814353c761e130e7741773a6aea59043f17e65f1e4431f6c17903d8"
+    "task_definition.json": "d1fa0aa07814353c761e130e7741773a6aea59043f17e65f1e4431f6c17903d8",
+    "torch_training.json": "b84eefd3048ee9d0d639ab862ea52391d41ccc9fa79d383d75f42091633b3451",
+    "uncertainty_report.json": "0cee4b06da77a0b55c02cb4709bd6449926233b859cc42a1ab75f7a0607af5e0"
   }
 }

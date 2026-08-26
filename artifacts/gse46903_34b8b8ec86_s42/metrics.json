@@ -403,6 +403,50 @@
         1.0
       ],
       "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
+    },
+    "torch_mlp_k10": {
+      "balanced_accuracy": 1.0,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "log_loss": 0.007724137108164661,
+      "donor_balanced_recall": 1.0,
+      "confusion": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          7
+        ]
+      ],
+      "support": [
+        7,
+        7,
+        7,
+        7
+      ],
+      "donor_bootstrap_95_interval": [
+        1.0,
+        1.0
+      ],
+      "interval_note": "Approximate donor bootstrap conditional on these held-out predictions; no model refitting"
     }
   }
 }

@@ -1,0 +1,165 @@
+{
+  "model_id": "torch_mlp_k10",
+  "framework": "PyTorch",
+  "torch_version": "2.9.1+cpu",
+  "task": "Four-class condition classification from ten selected transcripts",
+  "protocol": "Fixed 10-8-4 ReLU MLP, full-batch AdamW, 150 epochs, cross entropy, CPU. No outer-fold model selection.",
+  "folds": [
+    {
+      "fold": 0,
+      "train_donors": [
+        "BC11",
+        "BC13",
+        "BC76",
+        "BC78"
+      ],
+      "held_donors": [
+        "BC52",
+        "BC58",
+        "BC9"
+      ],
+      "losses": [
+        {
+          "epoch": 1,
+          "training_loss": 1.5445059537887573
+        },
+        {
+          "epoch": 10,
+          "training_loss": 1.1583342552185059
+        },
+        {
+          "epoch": 25,
+          "training_loss": 0.4859982132911682
+        },
+        {
+          "epoch": 50,
+          "training_loss": 0.11050841212272644
+        },
+        {
+          "epoch": 100,
+          "training_loss": 0.007696279790252447
+        },
+        {
+          "epoch": 150,
+          "training_loss": 0.004171007312834263
+        }
+      ],
+      "selected_genes": [
+        "A4GALT",
+        "ACKR3",
+        "ANKRD22",
+        "APOBEC3A",
+        "GBP1",
+        "GBP1P1",
+        "GBP4",
+        "GBP5",
+        "PPP1R14A",
+        "SERPING1"
+      ]
+    },
+    {
+      "fold": 1,
+      "train_donors": [
+        "BC11",
+        "BC52",
+        "BC58",
+        "BC78",
+        "BC9"
+      ],
+      "held_donors": [
+        "BC13",
+        "BC76"
+      ],
+      "losses": [
+        {
+          "epoch": 1,
+          "training_loss": 1.3554754257202148
+        },
+        {
+          "epoch": 10,
+          "training_loss": 1.043464183807373
+        },
+        {
+          "epoch": 25,
+          "training_loss": 0.40792590379714966
+        },
+        {
+          "epoch": 50,
+          "training_loss": 0.07758235931396484
+        },
+        {
+          "epoch": 100,
+          "training_loss": 0.011354716494679451
+        },
+        {
+          "epoch": 150,
+          "training_loss": 0.006108356174081564
+        }
+      ],
+      "selected_genes": [
+        "ACKR3",
+        "ADGRE3",
+        "ANKRD22",
+        "FOXQ1",
+        "GBP1",
+        "GBP4",
+        "GBP5",
+        "HEY1",
+        "PID1",
+        "SERPING1"
+      ]
+    },
+    {
+      "fold": 2,
+      "train_donors": [
+        "BC13",
+        "BC52",
+        "BC58",
+        "BC76",
+        "BC9"
+      ],
+      "held_donors": [
+        "BC11",
+        "BC78"
+      ],
+      "losses": [
+        {
+          "epoch": 1,
+          "training_loss": 1.5285000801086426
+        },
+        {
+          "epoch": 10,
+          "training_loss": 1.0880845785140991
+        },
+        {
+          "epoch": 25,
+          "training_loss": 0.4765334129333496
+        },
+        {
+          "epoch": 50,
+          "training_loss": 0.22183313965797424
+        },
+        {
+          "epoch": 100,
+          "training_loss": 0.011602958664298058
+        },
+        {
+          "epoch": 150,
+          "training_loss": 0.005174484569579363
+        }
+      ],
+      "selected_genes": [
+        "ABHD17C",
+        "ACKR3",
+        "ADORA2A",
+        "AIM2",
+        "ANKRD22",
+        "FOXQ1",
+        "GBP1",
+        "GBP4",
+        "GBP5",
+        "SERPING1"
+      ]
+    }
+  ]
+}
