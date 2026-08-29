@@ -5,6 +5,7 @@ network: temperature-scaled calibration and the MC-dropout spread of answers.
 """
 
 import numpy as np
+import pandas as pd
 
 from .data import CONDITIONS
 
@@ -107,3 +108,35 @@ def summarise(probabilities, labels, name):
             float(confidence[~correct].mean()) if (~correct).any() else None
         ),
     }
+
+
+def calibration_of_saved_procedures(root, models=(THESIS_MODEL_ID,)):
+    """Measure calibration on procedures that do make errors."""
+    stored = pd.read_csv(root / "predictions.csv.gz")
+    out = []
+    for model in models:
+        subset = stored[stored.model_id == model]
+        if subset.empty:
+            continue
+        pcols = [c for c in subset.columns if c.startswith("p_")]
+        probs = subset[pcols].to_numpy()
+        labels = np.array([CONDITIONS.index(v) for v in subset["true_label"]])
+        summary = summarise(probs, labels, model)
+        wrong = probs.argmax(axis=1) != labels
+        right = ~wrong
+        summary["mean_confidence_on_correct"] = float(probs.max(axis=1)[right].mean())
+        summary["mean_confidence_on_errors"] = (
+            float(probs.max(axis=1)[wrong].mean()) if wrong.any() else None
+        )
+        summary["mean_margin_on_errors"] = (
+            float(np.sort(probs[wrong], axis=1)[:, -1].mean()
+                  - np.sort(probs[wrong], axis=1)[:, -2].mean())
+            if wrong.any() else None
+        )
+        summary["mean_margin_on_correct"] = (
+            float(np.sort(probs[right], axis=1)[:, -1].mean()
+                  - np.sort(probs[right], axis=1)[:, -2].mean())
+            if right.any() else None
+        )
+        out.append(summary)
+    return out
