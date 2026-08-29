@@ -1,0 +1,143 @@
+{
+  "framework": "PyTorch",
+  "torch_version": "2.9.1+cpu",
+  "model_id": "torch_mlp_k10_uncertainty",
+  "architecture": "10-8(dropout p=0.2)-4",
+  "protocol": "Same donor-held-out folds, feature selection and 150-epoch schedule as torch_mlp_k10, with one dropout layer added. Temperature fitted on held-out predictions by grid search, so the reported calibration is optimistic and is not a general property of the model.",
+  "headline": "The network classifies all 28 held-out profiles correctly, so its temperature is unidentifiable (the NLL has no interior minimum when there are no errors) and its expected calibration error is zero by construction. Both figures are true and neither is informative. The calibration measurements that carry information are on the five-gene thesis panel, which does make errors.",
+  "before_scaling": {
+    "model": "after temperature scaling",
+    "n": 28,
+    "accuracy": 1.0,
+    "errors": 0,
+    "mean_confidence": 1.0,
+    "expected_calibration_error": 0.0,
+    "mean_confidence_when_wrong": null
+  },
+  "calibration_where_errors_exist": [
+    {
+      "model": "thesis_lr",
+      "n": 28,
+      "accuracy": 0.7857142857142857,
+      "errors": 6,
+      "mean_confidence": 0.5843001059830714,
+      "expected_calibration_error": 0.20141417973121423,
+      "mean_confidence_when_wrong": 0.3929249713477365,
+      "mean_confidence_on_correct": 0.6364933245199811,
+      "mean_confidence_on_errors": 0.3929249713477365,
+      "mean_margin_on_errors": 0.0904965910504445,
+      "mean_margin_on_correct": 0.4160622507934255
+    }
+  ],
+  "donor_effect_on_errors": {
+    "donors_with_any_error": 3,
+    "donors_total": 7,
+    "worst_donor": "BC58",
+    "worst_donor_errors": 3,
+    "per_donor": [
+      {
+        "donor_id": "BC11",
+        "errors": 1,
+        "samples": 4
+      },
+      {
+        "donor_id": "BC13",
+        "errors": 0,
+        "samples": 4
+      },
+      {
+        "donor_id": "BC52",
+        "errors": 0,
+        "samples": 4
+      },
+      {
+        "donor_id": "BC58",
+        "errors": 3,
+        "samples": 4
+      },
+      {
+        "donor_id": "BC76",
+        "errors": 0,
+        "samples": 4
+      },
+      {
+        "donor_id": "BC78",
+        "errors": 0,
+        "samples": 4
+      },
+      {
+        "donor_id": "BC9",
+        "errors": 2,
+        "samples": 4
+      }
+    ]
+  },
+  "per_fold": [
+    {
+      "fold": 0,
+      "train_donors": [
+        "BC11",
+        "BC13",
+        "BC76",
+        "BC78"
+      ],
+      "held_donors": [
+        "BC52",
+        "BC58",
+        "BC9"
+      ],
+      "final_training_loss": 0.0371624231338501,
+      "fitted_temperature": 0.05,
+      "temperature_identifiable": false,
+      "held_out_errors": 0,
+      "nll_at_temperature_1": 0.006529316152504899,
+      "nll_at_fitted_temperature": -0.0,
+      "mean_mc_dropout_disagreement": 0.0,
+      "mean_predictive_std": 0.06029061564437069
+    },
+    {
+      "fold": 1,
+      "train_donors": [
+        "BC11",
+        "BC52",
+        "BC58",
+        "BC78",
+        "BC9"
+      ],
+      "held_donors": [
+        "BC13",
+        "BC76"
+      ],
+      "final_training_loss": 0.05363316088914871,
+      "fitted_temperature": 0.05,
+      "temperature_identifiable": false,
+      "held_out_errors": 0,
+      "nll_at_temperature_1": 0.017311726680800818,
+      "nll_at_fitted_temperature": -0.0,
+      "mean_mc_dropout_disagreement": 0.0,
+      "mean_predictive_std": 0.0842804396483703
+    },
+    {
+      "fold": 2,
+      "train_donors": [
+        "BC13",
+        "BC52",
+        "BC58",
+        "BC76",
+        "BC9"
+      ],
+      "held_donors": [
+        "BC11",
+        "BC78"
+      ],
+      "final_training_loss": 0.052744220942258835,
+      "fitted_temperature": 0.05,
+      "temperature_identifiable": false,
+      "held_out_errors": 0,
+      "nll_at_temperature_1": 0.016657683883731546,
+      "nll_at_fitted_temperature": -0.0,
+      "mean_mc_dropout_disagreement": 0.0,
+      "mean_predictive_std": 0.07326306615597056
+    }
+  ]
+}
