@@ -5,7 +5,7 @@
   "architecture": "10-8(dropout p=0.2)-4",
   "protocol": "Same donor-held-out folds, feature selection and 150-epoch schedule as torch_mlp_k10, with one dropout layer added. Temperature fitted on held-out predictions by grid search, so the reported calibration is optimistic and is not a general property of the model.",
   "headline": "The network classifies all 28 held-out profiles correctly, so its temperature is unidentifiable (the NLL has no interior minimum when there are no errors) and its expected calibration error is zero by construction. Both figures are true and neither is informative. The calibration measurements that carry information are on the five-gene thesis panel, which does make errors.",
-  "before_scaling": {
+  "network_after_scaling": {
     "model": "after temperature scaling",
     "n": 28,
     "accuracy": 1.0,

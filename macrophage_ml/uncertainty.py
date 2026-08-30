@@ -1,6 +1,6 @@
 """Uncertainty for the small network, on the same donor-held-out protocol.
 
-The 10-8-4 model in torch_experiment.py reaches training loss ~0.004 on 21
+The 10-8-4 model in torch_experiment.py reaches training loss ~0.004 on 16-20
 profiles and classifies all 28 held-out samples correctly. A perfect score
 carries no information about how much the model actually knows, so this
 module measures two things the accuracy number cannot:
@@ -84,8 +84,6 @@ def fit_temperature(logits, labels, bounds=(0.05, 10.0), iterations=60):
     is reported rather than papered over. A temperature of 0.05 printed
     without the flag would read as a measurement and mean nothing.
     """
-    # TODO: re-check the at_edge rule after the rework -- an unidentifiable
-    # fit should read as that, not as a measured temperature.
     candidates = np.geomspace(bounds[0], bounds[1], iterations)
 
     def nll(temperature):
@@ -375,7 +373,7 @@ def run(run_id=RUN_ID):
             "calibration measurements that carry information are on the five-gene "
             "thesis panel, which does make errors."
         ),
-        "before_scaling": summarise(probs, labels, "after temperature scaling"),
+        "network_after_scaling": summarise(probs, labels, "after temperature scaling"),
         "calibration_where_errors_exist": calibration_of_saved_procedures(root),
         "donor_effect_on_errors": donor_effect,
         "per_fold": per_fold,
@@ -402,9 +400,9 @@ def run(run_id=RUN_ID):
     print(json.dumps({
         "model": MODEL_ID,
         "n": len(predictions),
-        "accuracy": report["before_scaling"]["accuracy"],
-        "mean_confidence": report["before_scaling"]["mean_confidence"],
-        "ece": report["before_scaling"]["expected_calibration_error"],
+        "accuracy": report["network_after_scaling"]["accuracy"],
+        "mean_confidence": report["network_after_scaling"]["mean_confidence"],
+        "ece": report["network_after_scaling"]["expected_calibration_error"],
         "temperature_identifiable": any(
             f["temperature_identifiable"] for f in per_fold),
         "informative_case": {
