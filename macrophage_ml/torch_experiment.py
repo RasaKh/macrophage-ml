@@ -41,7 +41,6 @@ def fit_predict(train_x, train_y, held_x, seed):
         loss = criterion(network(features), target)
         loss.backward()
         optimizer.step()
-        # six checkpoints only: the per-epoch trace grew to several MB
         if epoch in {0, 9, 24, 49, 99, 149}:
             losses.append({"epoch": epoch + 1, "training_loss": float(loss.detach())})
     network.eval()

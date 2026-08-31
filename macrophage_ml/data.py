@@ -72,9 +72,6 @@ def parse_metadata():
     rows = {"sample_id": ids, "description": meta["!Sample_description"][0],
             "title": meta["!Sample_title"][0], "platform": meta["!Sample_platform_id"][0]}
     characteristics = meta["!Sample_characteristics_ch1"]
-    # NOTE: this mapping leans on the order GEO keeps the characteristics
-    # lines in -- if a clean re-run throws here the column order moved and the
-    # cohort needs re-picking, not a silent re-index.
     names = ("differentiation", "stimulus", "time", "donor_id")
     for name, values in zip(names, characteristics, strict=True):
         rows[name] = [value.partition(": ")[2] for value in values]

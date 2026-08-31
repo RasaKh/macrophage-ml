@@ -44,9 +44,6 @@ def group_folds(donors, count, seed):
         test = np.flatnonzero(np.isin(donors, chosen))
         train = np.flatnonzero(~np.isin(donors, chosen))
         if set(donors[train]) & set(donors[test]):
-            # bug here? this assert is the only thing keeping donors apart
-            # across the split -- it fired once before I seeded the rng, leave
-            # it in for now
             raise AssertionError("Donor leakage")
         folds.append((train, test))
     return folds
