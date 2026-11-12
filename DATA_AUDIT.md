@@ -1,6 +1,6 @@
 # Data audit: GSE46903
 
-The audit and the task definition were recorded on 29 September 2026 before training. GEO's series matrix has **384 arrays**, of which **299** are described as macrophages. The selected tissue preparation is GM-CSF differentiated macrophages, collected at **72 hours** on platform GPL6947. Four conditions have 34 eligible profiles from 13 exact donor IDs. Requiring one profile of each condition per donor leaves **seven donors and 28 profiles**, seven per class. The other six eligible donors lack at least one chosen condition or contribute an unmatched sample; they are not included in the primary task.
+The audit and the task definition were recorded on 29 September 2026 before training. GEO's series matrix has 384 arrays, of which 299 are described as macrophages. The selected tissue preparation is GM-CSF differentiated macrophages, collected at 72 hours on platform GPL6947. Four conditions have 34 eligible profiles from 13 exact donor IDs. Requiring one profile of each condition per donor leaves seven donors and 28 profiles, seven per class. The other six eligible donors lack at least one chosen condition or contribute an unmatched sample; they are not included in the primary task.
 
 | Condition as deposited | Selected profiles | Distinct selected donors |
 | --- | ---: | ---: |
